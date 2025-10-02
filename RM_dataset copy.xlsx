@@ -1,0 +1,1001 @@
+Company_ID,Industry,Company_Size,Region,AI_Adoption_Level,Data_Quality_Score,MDM_Strategy,Automation_Level,Analytics_Type_Used,XAI_Implemented,Trust_Score,Customer_Satisfaction,Sentiment_Score,Innovation_Index,Revenue_Growth_%,Employee_AI_Skill_Level,AI_Investment_USD,Decision_Speed_Days,Market_Trend_Prediction_Accuracy,Business_Performance_Score
+C0001,Education,Large,Asia-Pacific,Low,74,Decentralized,76,Prescriptive,Yes,46,35,-0.92,0,26.9,Low,2538883,25,58,72
+C0002,Technology,Medium,Middle East,Low,47,Centralized,67,Prescriptive,No,57,72,0.83,5,24.11,Medium,9042754,32,77,52
+C0003,Manufacturing,Large,Europe,High,42,Centralized,36,Predictive,Partial,77,64,0.67,5,21.0,High,5798413,35,64,90
+C0004,Education,Small,Europe,High,53,Decentralized,89,Prescriptive,No,81,83,-0.4,2,5.71,Low,8392490,22,51,93
+C0005,Healthcare,Small,Europe,Medium,99,Centralized,24,AutoML,No,65,91,0.58,2,10.18,Medium,6528688,24,56,40
+C0006,Manufacturing,Small,India,High,52,Hybrid,44,Predictive,Yes,30,98,-0.94,2,8.57,High,9167535,39,96,52
+C0007,Manufacturing,Medium,Middle East,High,84,Hybrid,85,Prescriptive,No,91,45,0.93,2,0.14,High,4363399,54,67,82
+C0008,Education,Small,Asia-Pacific,Low,71,Decentralized,62,Predictive,No,27,37,0.05,6,10.2,Low,1001399,30,71,66
+C0009,Finance,Medium,Asia-Pacific,Medium,73,Centralized,53,AutoML,Yes,90,60,-0.39,9,-8.78,Low,6431906,50,99,46
+C0010,Healthcare,Small,Africa,High,84,Centralized,35,Prescriptive,Yes,83,39,-0.27,10,-4.73,Medium,9305211,32,59,91
+C0011,Education,Small,Africa,High,100,Hybrid,56,AutoML,Yes,40,85,-0.87,1,25.46,Low,2454710,31,99,42
+C0012,Healthcare,Medium,Africa,Low,58,Decentralized,43,AutoML,No,91,99,0.98,9,20.07,Medium,8027128,23,82,97
+C0013,Healthcare,Medium,Europe,Low,98,Centralized,96,AutoML,No,82,49,-0.92,9,6.91,High,2895653,40,56,64
+C0014,Manufacturing,Small,Asia-Pacific,High,77,Decentralized,59,Prescriptive,No,83,34,0.31,1,10.69,High,3162959,33,52,72
+C0015,Technology,Medium,Middle East,Medium,55,Centralized,93,Descriptive,Yes,39,52,-0.11,2,4.8,High,4510745,25,63,79
+C0016,Healthcare,Small,Europe,Medium,41,Hybrid,21,Prescriptive,Partial,27,38,0.9,9,19.63,High,8437827,36,93,56
+C0017,Telecom,Medium,India,Low,79,Hybrid,96,AutoML,No,77,87,-0.51,6,21.37,Low,7488784,24,95,84
+C0018,Manufacturing,Large,Africa,Low,56,Decentralized,13,Prescriptive,Partial,65,88,0.06,2,20.53,Low,8656493,31,85,53
+C0019,Finance,Large,Europe,High,94,Hybrid,96,AutoML,Yes,50,83,-0.04,6,18.9,Medium,8903372,58,62,76
+C0020,Technology,Large,Europe,Low,73,Centralized,57,Descriptive,No,28,75,0.41,8,-1.82,Medium,2300477,39,65,97
+C0021,Telecom,Large,India,High,81,Hybrid,64,Predictive,Partial,34,51,-0.86,10,3.52,Medium,9030052,46,65,95
+C0022,Telecom,Large,US,Medium,99,Decentralized,10,Descriptive,No,45,93,-0.61,9,8.79,Medium,4304567,13,54,93
+C0023,Finance,Small,Asia-Pacific,Medium,55,Decentralized,98,Descriptive,No,29,37,-0.57,10,3.23,Medium,4101156,10,74,62
+C0024,Technology,Large,Middle East,High,77,Decentralized,75,Predictive,No,48,49,0.48,3,20.2,High,6964996,23,87,98
+C0025,Manufacturing,Large,US,Low,99,Centralized,39,Prescriptive,Partial,99,80,-0.62,6,3.17,High,1217208,18,87,63
+C0026,Retail,Large,Africa,Medium,41,Centralized,12,Predictive,Yes,55,68,0.15,8,-4.47,High,8251319,32,99,68
+C0027,Technology,Large,Europe,Low,41,Centralized,30,Prescriptive,No,56,66,-0.57,7,5.96,Medium,6358031,33,87,77
+C0028,Finance,Medium,India,Medium,65,Centralized,98,Prescriptive,Yes,90,79,0.72,7,29.2,High,1372924,36,88,98
+C0029,Telecom,Small,India,High,52,Centralized,93,AutoML,Yes,42,63,0.88,8,-0.96,High,9499136,28,97,93
+C0030,Manufacturing,Large,Asia-Pacific,High,95,Hybrid,58,AutoML,Partial,60,62,0.04,4,14.49,High,8096534,16,90,66
+C0031,Technology,Large,US,High,86,Centralized,95,Predictive,Partial,99,60,-0.3,4,7.32,High,5457824,16,75,77
+C0032,Retail,Large,Asia-Pacific,Medium,70,Centralized,94,Descriptive,Yes,47,83,-0.53,2,-7.16,Low,7026192,18,62,92
+C0033,Retail,Small,Europe,Low,99,Hybrid,71,Predictive,No,67,73,-0.9,4,9.52,Medium,1820020,8,93,79
+C0034,Healthcare,Medium,Asia-Pacific,Low,73,Centralized,47,Prescriptive,Partial,57,63,-0.46,7,18.09,Medium,8581320,42,100,84
+C0035,Healthcare,Small,Middle East,Low,78,Decentralized,24,AutoML,No,50,100,0.31,4,10.53,Low,8565737,16,75,89
+C0036,Education,Medium,India,Medium,42,Centralized,61,Predictive,No,33,91,0.07,3,24.88,High,9312721,55,50,62
+C0037,Finance,Large,India,Medium,47,Centralized,88,Predictive,No,92,52,0.89,7,1.56,High,8205012,56,57,70
+C0038,Technology,Large,Africa,Medium,62,Decentralized,55,AutoML,Yes,96,75,-0.21,6,-6.55,High,493172,11,53,75
+C0039,Technology,Small,Africa,Medium,53,Decentralized,34,AutoML,No,48,85,0.39,5,27.46,Medium,9430638,6,70,56
+C0040,Education,Small,Europe,Medium,95,Decentralized,30,AutoML,Yes,70,36,-0.02,4,5.13,Medium,8758706,1,71,100
+C0041,Telecom,Medium,Middle East,Low,94,Decentralized,97,Prescriptive,Yes,68,90,0.03,4,13.06,Medium,2072063,12,100,76
+C0042,Telecom,Medium,US,Medium,66,Centralized,14,AutoML,No,62,32,-0.46,9,21.68,Medium,8199765,57,86,42
+C0043,Education,Small,Asia-Pacific,Medium,93,Decentralized,79,Descriptive,No,91,67,-0.09,1,2.97,Medium,807902,38,98,75
+C0044,Telecom,Medium,Europe,Low,68,Decentralized,56,Predictive,No,24,63,-0.06,3,18.65,Low,7213068,28,52,94
+C0045,Healthcare,Small,Africa,Medium,78,Hybrid,96,AutoML,No,61,73,0.41,7,-4.58,Medium,416099,45,68,44
+C0046,Technology,Medium,Asia-Pacific,Low,92,Decentralized,77,AutoML,Yes,26,59,0.88,7,1.65,High,5178012,58,50,85
+C0047,Education,Small,Africa,Low,78,Decentralized,100,Prescriptive,No,61,46,-0.34,10,-4.21,Medium,4788347,17,78,54
+C0048,Technology,Small,Asia-Pacific,High,40,Hybrid,27,Prescriptive,No,55,88,-0.92,0,22.45,Low,7129981,1,72,91
+C0049,Retail,Small,US,High,56,Hybrid,30,Predictive,Yes,46,39,-0.01,1,-1.09,High,8694702,32,82,88
+C0050,Healthcare,Medium,Europe,High,80,Centralized,95,Descriptive,Partial,77,47,0.09,4,18.7,Low,5577964,8,90,45
+C0051,Manufacturing,Medium,Asia-Pacific,High,69,Hybrid,32,Predictive,Partial,65,74,-0.66,8,27.73,High,4943704,54,72,98
+C0052,Healthcare,Medium,Middle East,Medium,92,Centralized,73,AutoML,Yes,85,88,0.52,9,11.11,Medium,5945882,40,54,49
+C0053,Education,Small,India,High,52,Hybrid,76,Descriptive,Partial,44,91,0.97,10,11.6,Low,5901605,56,56,93
+C0054,Manufacturing,Medium,Middle East,Low,60,Hybrid,49,Descriptive,Yes,92,88,0.89,10,8.44,High,5380605,43,55,71
+C0055,Retail,Medium,Middle East,Medium,58,Centralized,19,Descriptive,No,46,78,-0.61,6,3.04,Medium,7767960,46,98,62
+C0056,Education,Small,India,High,92,Hybrid,98,Descriptive,No,20,92,0.75,9,9.03,High,4354979,24,71,87
+C0057,Finance,Large,Middle East,Low,58,Centralized,61,Predictive,Partial,93,61,0.41,4,14.11,Low,5564260,10,98,56
+C0058,Technology,Small,Asia-Pacific,Medium,96,Hybrid,81,Prescriptive,No,61,39,-0.09,0,29.44,Low,3006181,47,62,85
+C0059,Retail,Medium,Asia-Pacific,Medium,64,Decentralized,84,Prescriptive,Partial,71,40,0.08,5,27.51,Low,5508076,39,61,59
+C0060,Technology,Small,Asia-Pacific,High,61,Hybrid,70,AutoML,Partial,44,99,0.7,7,24.49,Low,6476430,39,53,83
+C0061,Telecom,Large,India,Medium,70,Centralized,73,Prescriptive,No,73,91,-0.04,6,25.57,Medium,8021391,10,57,80
+C0062,Finance,Small,Middle East,Low,56,Hybrid,14,Prescriptive,No,86,76,-0.25,1,8.71,High,1066487,36,86,54
+C0063,Finance,Medium,India,Medium,94,Centralized,62,Prescriptive,Partial,25,63,-0.01,4,16.3,Medium,7746586,25,80,83
+C0064,Retail,Large,Asia-Pacific,Low,62,Centralized,64,Prescriptive,No,77,46,0.16,10,25.8,Low,6484548,50,86,85
+C0065,Finance,Medium,Middle East,Medium,71,Decentralized,46,AutoML,Yes,89,83,-0.62,3,5.72,High,3778489,59,94,97
+C0066,Manufacturing,Large,Middle East,High,49,Decentralized,65,Predictive,No,72,69,0.8,8,28.47,Low,4485776,57,75,61
+C0067,Finance,Large,Africa,Low,49,Centralized,68,Descriptive,No,85,48,0.35,9,6.63,Medium,9659533,10,92,89
+C0068,Technology,Small,Africa,Medium,75,Hybrid,78,Prescriptive,Yes,77,96,0.27,0,14.04,Medium,4544950,19,57,91
+C0069,Technology,Small,US,Medium,47,Centralized,82,Predictive,No,21,82,-0.8,5,18.39,Medium,8331901,46,89,45
+C0070,Education,Medium,Europe,Medium,93,Centralized,68,Prescriptive,No,95,93,0.21,2,28.02,High,1176805,45,82,43
+C0071,Technology,Small,Africa,Low,91,Hybrid,11,Prescriptive,Partial,41,76,-0.76,10,-0.22,High,2854660,15,94,97
+C0072,Education,Small,India,Low,59,Hybrid,74,Descriptive,No,56,35,-0.84,8,19.85,Low,5644181,16,78,62
+C0073,Technology,Large,Africa,Low,71,Hybrid,69,Descriptive,No,39,45,0.05,4,10.83,High,9707503,2,54,83
+C0074,Manufacturing,Small,US,High,89,Hybrid,60,Descriptive,Yes,43,47,-0.19,5,0.74,High,1728575,29,77,84
+C0075,Education,Large,Middle East,High,53,Centralized,39,Prescriptive,Partial,84,81,0.18,10,21.06,Medium,8024410,4,89,58
+C0076,Healthcare,Large,US,Low,89,Centralized,20,Prescriptive,Partial,84,77,-0.82,8,12.09,Low,4075481,53,66,93
+C0077,Telecom,Large,Middle East,Medium,67,Decentralized,85,Prescriptive,Partial,100,72,-0.14,8,16.44,Medium,6278462,50,72,84
+C0078,Retail,Medium,Middle East,High,85,Centralized,48,Descriptive,No,20,68,-0.65,7,2.92,Low,8390134,29,94,70
+C0079,Technology,Medium,Europe,Low,91,Hybrid,99,AutoML,Partial,22,78,0.97,8,9.25,Low,7067718,31,58,83
+C0080,Finance,Medium,Africa,Medium,92,Decentralized,86,Predictive,Yes,65,41,0.12,3,14.69,High,6111598,17,51,91
+C0081,Technology,Large,India,High,63,Hybrid,81,AutoML,Partial,74,39,0.37,5,6.2,Medium,9541979,10,81,42
+C0082,Finance,Medium,India,Medium,54,Centralized,72,Prescriptive,Yes,94,100,-0.35,4,-2.07,High,8347714,27,100,67
+C0083,Telecom,Medium,Asia-Pacific,Medium,61,Decentralized,73,Prescriptive,Partial,83,84,-0.81,4,28.47,High,5663163,53,98,42
+C0084,Telecom,Small,Middle East,Medium,69,Hybrid,70,AutoML,Partial,64,30,0.95,3,10.46,High,784543,41,80,53
+C0085,Telecom,Medium,India,Medium,43,Decentralized,63,Prescriptive,Yes,45,78,-0.43,1,19.36,Low,1410706,15,56,57
+C0086,Finance,Medium,Europe,High,52,Decentralized,82,Predictive,Partial,96,65,-0.15,5,6.44,Medium,9399313,44,79,66
+C0087,Technology,Large,Middle East,High,98,Centralized,67,Prescriptive,Partial,84,50,0.3,8,4.21,Medium,4037338,31,52,90
+C0088,Telecom,Large,Europe,High,62,Hybrid,94,Predictive,Partial,43,66,-0.95,0,6.29,High,3974248,21,100,100
+C0089,Manufacturing,Large,India,Low,47,Decentralized,65,AutoML,No,93,53,0.62,6,6.37,Low,3449458,59,100,99
+C0090,Education,Large,India,High,57,Decentralized,43,AutoML,Yes,54,84,0.07,5,11.77,Medium,9690610,58,58,49
+C0091,Finance,Large,Asia-Pacific,Medium,51,Hybrid,40,Prescriptive,Partial,43,54,-0.44,2,11.74,Medium,5110373,41,59,88
+C0092,Finance,Large,India,High,94,Decentralized,61,Predictive,Yes,47,36,-0.88,0,9.89,High,3069684,46,95,54
+C0093,Technology,Medium,Middle East,Medium,70,Decentralized,98,Prescriptive,Yes,99,100,-0.68,3,-4.61,Low,4721212,45,99,58
+C0094,Finance,Large,Middle East,Low,53,Decentralized,85,Descriptive,Yes,35,100,0.79,8,9.84,High,298595,26,96,48
+C0095,Finance,Large,Middle East,Medium,73,Hybrid,10,Descriptive,Partial,78,53,0.37,1,-3.24,Medium,8018737,38,75,43
+C0096,Telecom,Small,Asia-Pacific,Medium,57,Hybrid,64,Descriptive,Partial,100,40,-0.5,2,-4.95,Low,8244563,51,50,54
+C0097,Technology,Medium,Asia-Pacific,Medium,95,Hybrid,31,Descriptive,Yes,73,41,-0.87,1,27.31,High,2326881,36,79,90
+C0098,Telecom,Medium,India,Low,73,Hybrid,49,Prescriptive,No,98,64,0.38,1,14.2,Medium,7529602,52,87,87
+C0099,Education,Medium,US,High,50,Centralized,10,Descriptive,Yes,35,92,0.14,9,16.38,High,6546195,17,64,47
+C0100,Education,Large,US,High,80,Decentralized,74,Predictive,No,34,97,-0.19,10,6.07,High,5580131,51,74,88
+C0101,Telecom,Large,Asia-Pacific,Low,51,Hybrid,72,AutoML,Yes,30,86,-0.27,10,26.36,High,970200,3,55,92
+C0102,Education,Large,India,Medium,88,Decentralized,63,AutoML,Yes,84,42,-0.57,7,15.52,Low,9278879,14,67,40
+C0103,Technology,Small,US,High,54,Decentralized,51,Descriptive,Yes,98,52,0.34,2,20.77,Medium,9476371,49,50,46
+C0104,Retail,Large,India,Low,96,Centralized,30,Descriptive,Partial,87,68,0.94,6,4.74,Medium,2866300,13,52,92
+C0105,Telecom,Small,India,High,70,Hybrid,88,Descriptive,No,62,41,-0.65,7,28.4,Medium,1228152,41,66,70
+C0106,Manufacturing,Medium,India,Low,88,Hybrid,90,Prescriptive,No,88,63,0.19,2,22.82,Medium,4254069,27,97,57
+C0107,Manufacturing,Large,Africa,Medium,97,Decentralized,31,AutoML,Yes,32,100,-0.15,1,24.16,Low,3573700,1,57,51
+C0108,Finance,Small,Middle East,High,68,Hybrid,47,Descriptive,Partial,29,60,-0.11,7,-3.11,High,2157154,57,98,87
+C0109,Education,Small,India,Low,65,Decentralized,89,Predictive,Partial,94,91,-0.49,2,0.84,Medium,1896398,17,89,69
+C0110,Manufacturing,Large,Africa,High,57,Decentralized,17,Descriptive,No,60,42,0.65,6,1.43,Low,2322660,48,66,72
+C0111,Finance,Medium,Asia-Pacific,High,71,Centralized,71,AutoML,Partial,69,60,-0.03,0,0.84,High,5551326,50,74,98
+C0112,Retail,Medium,US,High,61,Centralized,56,Descriptive,No,90,31,0.09,5,24.22,Low,527698,34,90,86
+C0113,Technology,Medium,Middle East,High,77,Centralized,26,AutoML,No,78,44,-0.39,8,-8.72,Low,3182196,14,61,46
+C0114,Technology,Small,US,Low,56,Decentralized,26,Descriptive,No,58,86,-0.64,2,-6.96,Medium,6587076,54,78,67
+C0115,Technology,Small,Middle East,Medium,62,Hybrid,99,Predictive,Partial,22,63,-0.83,6,0.96,Medium,8969537,55,74,88
+C0116,Manufacturing,Small,US,Low,63,Centralized,22,Descriptive,No,95,97,0.43,5,-2.01,High,6773981,59,100,42
+C0117,Retail,Small,Middle East,Low,89,Hybrid,26,Predictive,No,26,58,-0.61,7,-0.73,High,3473496,17,85,82
+C0118,Manufacturing,Medium,US,Low,47,Centralized,47,Predictive,Yes,68,95,0.38,2,21.92,Medium,3205694,3,74,45
+C0119,Education,Large,US,Medium,80,Centralized,90,Descriptive,No,45,45,-0.22,2,12.53,Low,2367574,34,78,70
+C0120,Manufacturing,Small,US,High,45,Decentralized,87,Predictive,No,52,68,-0.17,3,-9.77,Medium,9492143,40,60,77
+C0121,Retail,Small,US,High,44,Centralized,54,Prescriptive,Yes,67,66,-0.06,2,7.17,High,6237641,25,53,54
+C0122,Retail,Medium,Asia-Pacific,High,83,Centralized,15,Descriptive,Yes,98,50,-0.26,8,6.32,Low,6396502,2,63,46
+C0123,Education,Large,India,Medium,96,Decentralized,44,Descriptive,Partial,21,73,-0.8,10,-5.44,Low,5282774,34,95,82
+C0124,Retail,Large,Europe,High,68,Hybrid,23,Predictive,No,90,48,-0.38,3,17.05,Low,1455313,26,87,69
+C0125,Retail,Medium,Africa,Medium,67,Centralized,81,Predictive,Partial,51,100,0.33,5,18.08,Medium,4411502,31,66,66
+C0126,Technology,Medium,Europe,High,50,Decentralized,70,Descriptive,Partial,23,37,0.33,7,18.84,Medium,4213121,9,51,56
+C0127,Education,Large,Europe,High,96,Centralized,24,Prescriptive,Yes,39,95,-0.43,10,19.14,High,4585484,30,57,94
+C0128,Healthcare,Small,Middle East,Low,40,Decentralized,63,Predictive,Partial,55,70,-0.08,7,-10.0,Low,8034653,20,85,57
+C0129,Healthcare,Large,India,Medium,82,Hybrid,36,Predictive,No,51,99,-0.61,4,28.16,Low,3736788,21,59,61
+C0130,Retail,Medium,Middle East,Low,58,Hybrid,22,AutoML,Yes,47,90,-0.58,4,22.57,Medium,2723383,29,56,100
+C0131,Healthcare,Small,India,Low,48,Decentralized,40,Prescriptive,No,96,55,-0.95,5,26.16,High,381012,59,85,95
+C0132,Healthcare,Small,India,Low,66,Decentralized,44,Prescriptive,No,20,100,0.79,9,-9.37,High,8437484,25,65,100
+C0133,Retail,Medium,US,Medium,73,Decentralized,69,Descriptive,Yes,79,99,-0.58,6,27.35,Low,9116186,38,63,92
+C0134,Healthcare,Medium,Asia-Pacific,Medium,83,Hybrid,15,Prescriptive,No,75,58,-0.54,9,22.39,Medium,7339968,58,65,65
+C0135,Manufacturing,Medium,US,High,43,Centralized,78,Descriptive,Yes,54,95,-0.44,6,23.49,Low,7709381,44,74,90
+C0136,Finance,Large,Asia-Pacific,Low,75,Hybrid,95,AutoML,No,49,48,-0.75,3,-6.27,Medium,7001775,25,90,66
+C0137,Education,Large,Middle East,High,57,Decentralized,67,Prescriptive,Yes,73,97,0.28,5,19.55,High,6779806,9,53,79
+C0138,Finance,Small,Asia-Pacific,Low,54,Decentralized,58,Predictive,Partial,55,87,-0.85,6,28.4,Low,8988770,39,78,63
+C0139,Retail,Medium,Middle East,Medium,90,Hybrid,32,AutoML,No,74,99,-0.73,4,17.14,Low,2802447,44,55,91
+C0140,Technology,Small,Europe,Medium,52,Decentralized,98,Descriptive,Yes,99,86,0.29,4,12.82,Low,4769893,26,50,47
+C0141,Education,Small,Europe,Medium,58,Hybrid,43,AutoML,No,77,66,-0.32,1,27.83,High,1418737,57,88,60
+C0142,Retail,Small,Asia-Pacific,Low,88,Decentralized,35,Descriptive,No,84,90,0.42,6,7.72,Low,4528903,37,50,68
+C0143,Technology,Small,Asia-Pacific,Medium,45,Centralized,56,AutoML,No,88,59,0.11,5,13.97,High,1601870,16,100,82
+C0144,Finance,Medium,Middle East,Low,87,Centralized,14,Descriptive,Yes,70,100,-0.49,10,9.05,Medium,3385160,37,89,60
+C0145,Retail,Small,US,High,95,Decentralized,99,Prescriptive,Partial,41,54,0.3,0,27.31,High,4236321,12,52,42
+C0146,Education,Medium,Middle East,Low,51,Hybrid,29,Predictive,Partial,72,94,-0.77,3,-6.96,Medium,8339681,24,50,70
+C0147,Education,Medium,US,High,90,Centralized,15,Descriptive,Partial,55,35,0.07,2,10.04,High,5325615,26,50,94
+C0148,Telecom,Large,Europe,Low,76,Hybrid,79,AutoML,Yes,87,47,-0.13,2,17.48,High,7200669,20,88,66
+C0149,Manufacturing,Medium,India,High,56,Decentralized,68,Descriptive,Partial,55,39,-0.46,6,21.68,Low,9728391,9,70,85
+C0150,Healthcare,Large,Asia-Pacific,Medium,97,Hybrid,73,Descriptive,Yes,71,40,0.21,10,13.32,High,6205343,23,94,66
+C0151,Technology,Medium,US,High,62,Centralized,27,Descriptive,No,72,94,0.74,9,26.36,Low,1730913,39,79,48
+C0152,Telecom,Medium,Middle East,Medium,65,Hybrid,13,AutoML,No,69,94,1.0,3,27.68,Medium,4659231,29,81,96
+C0153,Healthcare,Medium,Europe,Medium,68,Hybrid,26,Predictive,Partial,99,81,0.22,7,-7.43,Medium,8572886,31,82,72
+C0154,Healthcare,Large,US,High,72,Decentralized,23,Prescriptive,Yes,60,96,-0.19,10,6.09,Low,9281329,19,97,72
+C0155,Retail,Large,Middle East,Low,99,Decentralized,87,Predictive,No,37,60,-0.55,8,-9.06,Medium,331097,20,71,65
+C0156,Healthcare,Small,Asia-Pacific,Low,66,Decentralized,22,Descriptive,Yes,41,46,-0.49,2,3.18,High,5655956,23,79,67
+C0157,Manufacturing,Large,Asia-Pacific,Low,64,Centralized,16,AutoML,Yes,85,84,-0.04,4,11.47,Low,6600402,43,95,83
+C0158,Education,Large,Africa,Low,95,Centralized,53,Predictive,No,40,65,-0.27,3,26.43,Low,2226082,27,53,82
+C0159,Telecom,Large,India,Low,94,Decentralized,24,Descriptive,Yes,63,55,0.83,9,23.86,Low,6528444,30,72,70
+C0160,Healthcare,Large,Africa,Medium,49,Decentralized,28,Prescriptive,No,66,82,-0.26,5,-4.9,Medium,3458939,21,93,92
+C0161,Retail,Small,Europe,Low,86,Centralized,72,Prescriptive,No,58,46,-0.25,10,-6.28,Medium,4587229,44,74,40
+C0162,Manufacturing,Large,US,Medium,62,Centralized,44,Prescriptive,No,48,54,-0.23,9,13.57,High,9699169,35,61,59
+C0163,Finance,Medium,Europe,Medium,60,Centralized,90,Descriptive,Yes,73,31,0.67,3,11.28,High,5002034,49,66,51
+C0164,Education,Medium,Middle East,Medium,60,Centralized,44,AutoML,No,36,34,0.3,7,0.66,Low,2508547,7,64,56
+C0165,Education,Large,Asia-Pacific,High,82,Decentralized,28,Predictive,Yes,99,33,0.23,2,25.98,High,8356135,22,59,54
+C0166,Telecom,Large,Africa,High,52,Centralized,29,Prescriptive,No,79,65,-0.33,10,27.09,Medium,8690050,10,84,73
+C0167,Education,Medium,Africa,Medium,76,Decentralized,44,Descriptive,No,50,35,0.64,4,6.1,High,3470690,23,78,89
+C0168,Healthcare,Medium,Africa,High,72,Hybrid,41,Descriptive,Partial,92,50,-0.92,0,25.61,Medium,1370055,15,61,55
+C0169,Retail,Small,Europe,Low,63,Hybrid,57,Predictive,Partial,97,55,0.74,5,5.36,High,367152,30,50,43
+C0170,Education,Medium,Asia-Pacific,Low,83,Centralized,53,Prescriptive,Partial,68,84,0.03,10,19.47,Medium,4942812,34,50,47
+C0171,Education,Medium,US,Medium,50,Hybrid,33,Descriptive,Yes,21,68,-0.2,4,9.04,Medium,7646477,13,59,73
+C0172,Finance,Large,Middle East,Low,56,Hybrid,70,Predictive,Yes,67,62,-0.01,7,-5.1,High,123916,4,67,85
+C0173,Finance,Medium,US,Medium,43,Hybrid,26,AutoML,No,33,43,0.33,8,27.12,High,8864749,18,96,64
+C0174,Technology,Small,Europe,Medium,86,Centralized,80,AutoML,No,78,85,-0.97,7,8.16,Medium,6120517,56,51,54
+C0175,Manufacturing,Medium,Middle East,Low,64,Centralized,59,AutoML,No,77,50,0.74,7,19.38,Low,4648615,23,98,67
+C0176,Healthcare,Large,Africa,High,69,Hybrid,74,Prescriptive,No,77,75,-0.11,2,4.69,High,659003,33,57,48
+C0177,Education,Large,India,Low,48,Decentralized,41,Predictive,Yes,70,45,-0.31,3,-9.24,Medium,2383728,34,71,41
+C0178,Education,Medium,Europe,Low,60,Hybrid,45,Predictive,No,21,45,-0.72,10,-5.98,High,8495288,34,71,56
+C0179,Retail,Large,Europe,Medium,59,Centralized,22,Descriptive,No,60,58,-0.12,3,9.85,High,4750671,36,75,97
+C0180,Technology,Small,Asia-Pacific,Medium,58,Centralized,79,Descriptive,Partial,35,37,-0.01,10,17.6,High,68510,35,75,49
+C0181,Manufacturing,Small,US,Medium,58,Centralized,67,Descriptive,No,23,32,-0.19,4,3.39,High,3510054,17,58,48
+C0182,Technology,Medium,Europe,Medium,51,Hybrid,23,Predictive,No,31,48,0.36,8,17.82,High,7032660,28,70,70
+C0183,Telecom,Medium,Europe,High,76,Decentralized,46,Descriptive,No,48,95,-0.16,8,17.95,Low,986232,14,80,41
+C0184,Manufacturing,Medium,Africa,High,81,Centralized,88,Predictive,Yes,26,51,0.92,9,18.16,Low,4998587,34,92,63
+C0185,Education,Large,Africa,High,56,Centralized,77,Predictive,Partial,33,75,0.2,0,9.7,Low,2018487,48,55,58
+C0186,Education,Small,Middle East,Medium,76,Hybrid,49,AutoML,No,31,42,0.61,7,26.6,Medium,5525260,11,63,56
+C0187,Manufacturing,Small,India,Medium,93,Decentralized,68,Descriptive,No,24,62,-0.78,0,9.57,Low,1469702,57,82,82
+C0188,Education,Large,Asia-Pacific,Medium,87,Hybrid,89,AutoML,Partial,100,34,-0.21,1,8.01,Low,7843994,13,56,88
+C0189,Healthcare,Small,India,High,78,Centralized,25,Prescriptive,No,51,56,-0.33,6,-2.02,Medium,102748,33,73,49
+C0190,Manufacturing,Medium,Middle East,Medium,67,Decentralized,71,Prescriptive,Yes,93,53,0.14,7,2.31,Low,9549835,57,58,89
+C0191,Technology,Medium,Africa,Low,80,Decentralized,13,Prescriptive,No,62,96,0.72,0,-8.31,High,4147304,55,60,94
+C0192,Manufacturing,Medium,US,Low,74,Centralized,54,Predictive,Yes,100,92,-0.84,2,15.34,Low,78669,2,72,67
+C0193,Education,Small,Africa,Medium,86,Decentralized,99,Predictive,Yes,88,77,-0.85,6,-0.06,Low,2019387,34,97,77
+C0194,Healthcare,Medium,Asia-Pacific,Low,87,Decentralized,37,Predictive,No,64,92,0.7,8,2.17,Low,3999905,53,100,87
+C0195,Healthcare,Large,Africa,Low,57,Hybrid,75,Descriptive,Partial,28,41,-0.57,7,20.83,High,7036249,29,51,67
+C0196,Telecom,Large,Asia-Pacific,High,53,Centralized,40,AutoML,Yes,68,57,0.34,7,3.09,High,6367197,37,64,98
+C0197,Technology,Small,Asia-Pacific,Medium,74,Centralized,12,Predictive,Partial,52,73,0.09,8,-0.31,High,1251934,4,84,89
+C0198,Finance,Large,Asia-Pacific,Medium,83,Centralized,17,AutoML,No,37,72,0.67,9,-3.24,High,8442207,12,85,91
+C0199,Finance,Large,Middle East,High,80,Centralized,33,AutoML,Yes,28,46,-0.75,2,20.99,Medium,9615697,26,77,89
+C0200,Manufacturing,Small,Asia-Pacific,Low,99,Centralized,24,AutoML,No,81,69,-0.74,7,-4.81,High,5058029,58,88,40
+C0201,Telecom,Medium,Asia-Pacific,Low,46,Decentralized,52,Descriptive,Partial,76,78,0.11,0,8.15,High,2650017,28,93,99
+C0202,Retail,Medium,US,Medium,80,Hybrid,40,Descriptive,No,48,86,0.89,7,10.28,High,9761646,3,53,42
+C0203,Manufacturing,Medium,India,Low,52,Centralized,82,Prescriptive,No,97,93,-0.17,6,17.5,High,8356411,20,59,54
+C0204,Telecom,Small,Europe,High,57,Hybrid,54,Prescriptive,Yes,44,86,-0.35,7,15.33,Medium,2412351,10,55,91
+C0205,Technology,Large,India,High,76,Hybrid,75,AutoML,No,34,99,0.21,0,22.43,Low,695452,52,79,49
+C0206,Technology,Medium,Asia-Pacific,Medium,52,Decentralized,17,Prescriptive,No,25,72,0.86,5,-8.21,Low,1705443,18,95,60
+C0207,Technology,Medium,US,High,75,Centralized,80,AutoML,No,61,52,0.67,6,1.86,High,5397697,53,84,76
+C0208,Technology,Small,Africa,High,70,Decentralized,66,Descriptive,Yes,48,56,0.99,10,1.21,High,5778790,53,98,54
+C0209,Technology,Medium,US,Medium,41,Centralized,89,Descriptive,Partial,98,87,-0.95,4,-4.16,High,1440688,53,92,62
+C0210,Telecom,Small,Asia-Pacific,High,55,Decentralized,39,Descriptive,Partial,23,66,-0.77,4,1.57,Low,8017090,27,59,53
+C0211,Telecom,Large,US,High,48,Hybrid,83,Predictive,No,76,35,0.22,6,2.39,Low,8959923,31,81,54
+C0212,Healthcare,Small,US,High,48,Centralized,27,AutoML,Yes,68,94,0.64,10,10.88,High,1517836,27,91,49
+C0213,Finance,Small,Asia-Pacific,Low,77,Hybrid,78,Descriptive,No,63,35,-0.43,2,16.55,Low,3348771,42,91,95
+C0214,Education,Small,Middle East,Medium,50,Hybrid,48,AutoML,Partial,99,79,-0.52,5,5.24,Medium,1878918,1,52,48
+C0215,Technology,Small,US,Medium,93,Decentralized,69,Prescriptive,Yes,94,51,0.57,6,18.78,High,8028503,6,75,83
+C0216,Retail,Large,Europe,Medium,95,Centralized,52,Prescriptive,Partial,33,54,-0.89,0,3.45,High,7388298,11,64,78
+C0217,Education,Large,Europe,Low,61,Hybrid,54,Descriptive,Partial,22,80,-0.26,1,1.61,Medium,2220972,34,66,44
+C0218,Telecom,Medium,US,Low,72,Decentralized,32,AutoML,Yes,81,77,0.01,3,11.65,Medium,2780502,39,76,64
+C0219,Retail,Large,Middle East,Medium,75,Centralized,78,Descriptive,Yes,83,99,0.12,7,-9.05,Low,6031441,20,67,95
+C0220,Retail,Large,Africa,Low,84,Centralized,15,Prescriptive,No,64,94,0.46,10,-6.81,Medium,8990372,53,100,81
+C0221,Retail,Medium,Asia-Pacific,Medium,62,Hybrid,65,Descriptive,No,77,89,-0.29,9,6.72,High,6863573,21,68,96
+C0222,Healthcare,Large,Europe,Low,84,Centralized,13,AutoML,Partial,39,75,0.23,5,27.72,Low,1218931,21,61,65
+C0223,Telecom,Small,Africa,High,84,Hybrid,32,Prescriptive,Yes,77,65,0.17,0,18.86,Medium,3265775,18,73,47
+C0224,Retail,Small,US,High,73,Centralized,15,Predictive,Yes,76,87,0.1,9,-6.47,Low,5296761,21,54,61
+C0225,Technology,Medium,Africa,Medium,48,Decentralized,41,Prescriptive,No,96,67,0.28,4,23.85,Low,2687108,19,73,91
+C0226,Manufacturing,Medium,India,Low,63,Hybrid,27,Predictive,Partial,87,40,-0.48,6,19.29,Low,6573245,4,76,64
+C0227,Retail,Medium,Europe,Low,47,Hybrid,24,Descriptive,Partial,97,41,-0.83,5,14.44,Low,4992422,13,97,87
+C0228,Healthcare,Small,US,High,46,Centralized,49,Descriptive,No,71,71,-0.76,8,22.81,Medium,6995098,18,79,51
+C0229,Education,Large,Asia-Pacific,High,75,Centralized,82,AutoML,Yes,56,68,-0.55,7,6.16,High,2073106,52,64,48
+C0230,Telecom,Small,Middle East,Low,57,Hybrid,83,Predictive,No,27,100,0.0,3,-1.14,High,6663002,29,96,49
+C0231,Healthcare,Medium,US,Low,42,Centralized,93,Descriptive,No,63,40,0.68,10,10.48,Medium,416074,25,87,87
+C0232,Retail,Large,Asia-Pacific,Low,67,Decentralized,15,Predictive,No,24,65,0.4,4,11.95,High,5271610,56,93,49
+C0233,Telecom,Large,Middle East,Low,45,Centralized,72,Descriptive,No,88,81,0.58,6,11.53,Low,8705259,13,83,48
+C0234,Manufacturing,Small,Middle East,Low,83,Decentralized,76,Prescriptive,Yes,50,60,-0.3,7,12.6,Low,227375,27,76,65
+C0235,Retail,Medium,US,Low,83,Decentralized,20,Descriptive,No,64,62,-0.19,4,27.95,Low,3298280,19,69,74
+C0236,Healthcare,Small,Africa,Medium,60,Decentralized,52,AutoML,Yes,28,42,-0.21,8,26.09,Medium,5952232,49,90,66
+C0237,Finance,Large,Africa,Low,67,Decentralized,26,Prescriptive,No,51,47,-0.62,9,25.03,Low,2277666,1,81,99
+C0238,Technology,Small,Middle East,High,79,Decentralized,13,AutoML,Partial,52,70,-0.88,3,22.06,Low,5318410,38,53,70
+C0239,Education,Small,Africa,Medium,93,Centralized,72,Prescriptive,Yes,86,87,0.18,3,27.74,Medium,6450553,19,54,58
+C0240,Healthcare,Medium,India,Low,93,Decentralized,77,Predictive,Partial,49,85,0.98,7,-6.06,Low,6035507,52,57,82
+C0241,Telecom,Medium,Middle East,High,40,Centralized,90,AutoML,No,95,53,-0.67,0,0.6,Low,3675153,1,71,77
+C0242,Retail,Large,Middle East,Medium,75,Decentralized,50,Descriptive,No,48,60,-0.91,7,9.8,High,1150620,40,91,45
+C0243,Technology,Small,Asia-Pacific,High,60,Hybrid,92,Predictive,No,22,84,0.56,4,23.86,Medium,1058882,17,56,54
+C0244,Retail,Small,Africa,Low,99,Decentralized,14,Descriptive,Yes,76,39,-0.49,10,10.21,Low,8569044,21,71,68
+C0245,Telecom,Small,Middle East,Low,82,Hybrid,41,Prescriptive,Partial,49,89,0.66,0,19.92,Low,4333667,22,95,86
+C0246,Retail,Large,India,Low,74,Decentralized,95,Prescriptive,Yes,28,31,0.41,3,-4.44,Low,1669530,15,79,84
+C0247,Finance,Large,Asia-Pacific,Low,52,Decentralized,79,Descriptive,Yes,45,44,0.89,1,0.1,Low,3615117,50,86,93
+C0248,Technology,Medium,US,Medium,96,Decentralized,44,Descriptive,No,21,32,-0.18,3,19.27,High,7847215,39,65,44
+C0249,Technology,Medium,Middle East,Medium,88,Hybrid,31,Predictive,Partial,81,72,0.32,7,-3.41,High,7289967,48,64,53
+C0250,Telecom,Medium,India,High,93,Hybrid,74,Descriptive,No,22,60,-0.07,4,4.05,High,4650505,39,54,92
+C0251,Education,Small,Europe,Low,93,Decentralized,93,AutoML,Yes,65,99,0.26,0,0.59,High,5393926,32,52,41
+C0252,Finance,Small,India,High,49,Centralized,31,AutoML,No,87,96,-0.1,6,3.99,Medium,447046,49,72,62
+C0253,Healthcare,Medium,India,Medium,92,Decentralized,20,Descriptive,Partial,44,85,-0.62,0,18.33,Low,5424485,4,59,83
+C0254,Retail,Small,Asia-Pacific,Low,83,Hybrid,86,AutoML,No,70,92,0.02,8,4.71,High,6060794,44,54,91
+C0255,Manufacturing,Medium,US,Low,86,Decentralized,12,Descriptive,Partial,32,44,0.06,2,12.21,Low,2299170,45,72,85
+C0256,Retail,Large,Europe,Medium,92,Hybrid,18,Predictive,Partial,63,39,0.62,2,-6.0,Medium,1733415,32,64,58
+C0257,Retail,Medium,Africa,Medium,49,Hybrid,69,AutoML,No,54,67,0.47,5,22.2,Low,3513587,4,67,63
+C0258,Healthcare,Large,Africa,Medium,85,Hybrid,85,AutoML,Yes,74,76,0.33,9,4.8,Low,8073647,53,74,59
+C0259,Retail,Small,India,Medium,52,Decentralized,96,Descriptive,No,28,86,-0.77,5,15.94,High,161597,1,57,86
+C0260,Finance,Medium,Asia-Pacific,Medium,76,Hybrid,23,AutoML,Yes,21,79,0.44,10,19.02,High,4417226,33,80,66
+C0261,Finance,Small,Asia-Pacific,Low,77,Hybrid,27,Prescriptive,Yes,80,100,0.0,10,-1.61,Medium,9849987,7,70,91
+C0262,Technology,Large,Africa,Medium,63,Decentralized,82,Predictive,No,60,44,0.79,5,25.39,Low,2444019,9,51,63
+C0263,Telecom,Large,Europe,Low,41,Hybrid,32,Predictive,Yes,63,47,0.84,0,14.65,High,3886827,1,71,56
+C0264,Education,Large,US,Low,61,Decentralized,83,AutoML,Yes,83,31,-0.89,4,7.15,High,5029021,16,57,64
+C0265,Manufacturing,Small,Europe,Medium,56,Hybrid,92,AutoML,No,50,72,0.64,5,-2.71,High,5234837,18,72,85
+C0266,Retail,Small,Middle East,Medium,75,Centralized,56,Prescriptive,No,66,55,-0.92,7,27.69,Medium,4177741,54,81,94
+C0267,Retail,Small,Middle East,Low,53,Centralized,78,Prescriptive,No,21,100,-0.27,0,20.2,Low,6148492,47,57,70
+C0268,Healthcare,Small,US,Medium,49,Hybrid,56,AutoML,Yes,96,67,0.08,4,-1.68,High,7769161,6,53,67
+C0269,Telecom,Large,Africa,Medium,74,Centralized,96,AutoML,Partial,88,71,-0.7,2,3.51,Low,7868014,2,79,89
+C0270,Finance,Large,US,Medium,64,Decentralized,39,Prescriptive,Yes,77,34,0.49,1,22.39,Medium,244202,9,68,98
+C0271,Manufacturing,Medium,Asia-Pacific,High,42,Centralized,34,Descriptive,Partial,63,40,-0.98,10,17.83,Low,4566025,4,72,67
+C0272,Technology,Medium,Middle East,Low,86,Hybrid,37,Prescriptive,No,93,94,-0.66,7,20.63,High,2588309,45,67,61
+C0273,Finance,Small,India,High,77,Hybrid,34,Descriptive,Partial,75,63,0.16,6,7.65,Low,1665620,23,78,95
+C0274,Telecom,Large,India,Medium,56,Decentralized,83,Predictive,No,62,30,0.43,9,18.66,Low,5897898,54,72,98
+C0275,Education,Large,Africa,High,51,Hybrid,87,Predictive,No,53,31,0.83,6,5.46,Medium,6302551,43,82,44
+C0276,Technology,Large,Asia-Pacific,Medium,93,Decentralized,67,Prescriptive,Partial,49,49,0.41,4,-1.55,Medium,6762584,45,96,93
+C0277,Education,Medium,Europe,High,91,Centralized,50,Descriptive,No,90,90,0.34,8,15.31,Low,350767,43,67,83
+C0278,Healthcare,Medium,Asia-Pacific,Medium,63,Centralized,34,Prescriptive,Partial,89,50,-0.21,4,29.04,Low,5094039,51,93,81
+C0279,Healthcare,Large,India,High,68,Decentralized,87,Prescriptive,No,74,97,-1.0,1,2.42,Low,4028222,8,82,47
+C0280,Retail,Large,India,High,82,Decentralized,57,Descriptive,Yes,86,41,-0.76,2,8.44,Medium,9586164,39,56,100
+C0281,Education,Large,Middle East,High,64,Hybrid,19,Prescriptive,Yes,32,51,0.07,3,16.96,Medium,567926,25,100,77
+C0282,Telecom,Medium,Asia-Pacific,Low,75,Centralized,84,Predictive,No,22,49,0.35,4,11.66,Low,6857173,16,77,67
+C0283,Manufacturing,Large,Asia-Pacific,High,97,Decentralized,20,AutoML,No,45,30,-0.17,2,23.74,Medium,9360202,35,50,96
+C0284,Technology,Large,India,Low,99,Centralized,94,AutoML,Partial,76,59,0.46,6,20.47,High,7697442,17,88,86
+C0285,Finance,Small,Europe,Medium,65,Decentralized,30,Prescriptive,Yes,43,53,0.04,4,-7.67,Medium,5118379,18,83,51
+C0286,Telecom,Small,Africa,High,77,Centralized,95,Descriptive,Partial,72,43,-0.85,4,29.94,Medium,6059321,27,88,96
+C0287,Telecom,Medium,Africa,Medium,40,Hybrid,54,Descriptive,No,89,65,-0.62,5,20.1,Medium,8894690,15,68,64
+C0288,Healthcare,Large,Asia-Pacific,Medium,59,Centralized,16,Predictive,No,62,98,0.68,6,24.56,High,9866702,17,80,77
+C0289,Education,Large,Africa,High,94,Centralized,90,Descriptive,Partial,79,53,0.45,9,16.05,High,6782446,43,62,83
+C0290,Retail,Small,India,Low,67,Centralized,73,Descriptive,No,77,89,0.79,9,24.25,High,7857818,5,73,54
+C0291,Retail,Medium,India,High,55,Centralized,73,Predictive,Yes,68,84,-0.76,7,-5.5,Low,3766714,16,54,83
+C0292,Technology,Small,Asia-Pacific,Medium,86,Centralized,11,Prescriptive,Partial,61,53,0.98,8,3.91,Low,8291730,15,72,80
+C0293,Healthcare,Small,Asia-Pacific,Medium,56,Hybrid,85,AutoML,Yes,95,53,-0.58,10,25.06,High,525197,42,68,90
+C0294,Telecom,Small,Middle East,High,79,Decentralized,51,Predictive,Yes,85,83,-0.98,3,-1.93,Low,1230034,46,50,92
+C0295,Manufacturing,Small,Asia-Pacific,Low,67,Centralized,91,Prescriptive,Yes,30,55,0.99,4,-6.87,Low,6268897,34,82,73
+C0296,Healthcare,Large,Europe,Low,97,Hybrid,63,Predictive,Partial,37,95,-0.44,4,21.52,Low,6556648,48,99,99
+C0297,Technology,Large,Africa,Medium,51,Centralized,84,Prescriptive,No,71,67,0.34,7,23.42,High,9729466,19,82,84
+C0298,Technology,Small,Asia-Pacific,Medium,66,Centralized,25,Predictive,Yes,65,94,-0.65,8,-3.49,Medium,4213219,8,81,52
+C0299,Healthcare,Medium,US,Low,93,Decentralized,27,Prescriptive,Yes,63,80,0.16,6,24.17,High,9321125,47,77,47
+C0300,Technology,Medium,Middle East,High,92,Centralized,68,Predictive,Yes,41,64,0.81,4,17.47,High,3154632,10,86,98
+C0301,Healthcare,Medium,US,Medium,81,Hybrid,99,Prescriptive,No,72,72,-0.36,2,10.8,Low,6317366,5,90,52
+C0302,Finance,Medium,India,Low,98,Hybrid,25,Predictive,No,78,58,0.34,0,23.21,Low,5534180,52,61,75
+C0303,Healthcare,Small,Africa,Medium,86,Decentralized,15,AutoML,Partial,49,66,-0.62,10,6.77,Medium,9510982,48,58,45
+C0304,Education,Large,Asia-Pacific,High,69,Centralized,66,AutoML,No,27,87,0.25,8,-2.24,Medium,9893965,53,99,77
+C0305,Healthcare,Medium,US,Low,80,Hybrid,56,Descriptive,Partial,76,83,-0.33,4,1.39,Medium,8938860,26,60,71
+C0306,Technology,Small,Africa,Medium,73,Centralized,57,Prescriptive,Partial,92,68,-0.58,8,10.21,Medium,6832303,22,82,60
+C0307,Education,Medium,India,High,76,Centralized,51,Predictive,Partial,39,71,-0.37,9,11.25,High,6084943,44,68,83
+C0308,Technology,Medium,Europe,Medium,45,Centralized,85,Prescriptive,Partial,44,57,-0.64,3,22.22,Medium,3765222,23,91,83
+C0309,Retail,Small,Middle East,High,46,Decentralized,69,AutoML,Partial,38,58,0.8,4,21.65,High,7724499,13,83,88
+C0310,Retail,Large,Africa,High,71,Centralized,86,Prescriptive,Yes,24,72,-0.21,3,13.25,Low,2725059,9,56,98
+C0311,Education,Large,Africa,Low,71,Hybrid,13,Predictive,No,94,32,-0.51,1,21.23,Medium,5920704,49,80,46
+C0312,Finance,Small,Europe,High,92,Centralized,11,Prescriptive,Yes,98,39,-0.1,0,-2.33,Low,470091,20,51,65
+C0313,Retail,Large,Africa,Medium,64,Hybrid,99,Predictive,Partial,91,88,-0.36,7,-8.0,Low,309201,28,68,54
+C0314,Healthcare,Small,India,High,72,Centralized,68,AutoML,No,46,43,0.49,3,24.95,High,4117520,44,87,95
+C0315,Technology,Small,India,High,94,Hybrid,36,AutoML,Yes,59,76,0.94,4,-6.98,Medium,4775326,57,81,88
+C0316,Retail,Small,Europe,Low,97,Hybrid,36,AutoML,Yes,45,71,-0.12,5,-0.13,High,1836936,37,59,81
+C0317,Retail,Large,Middle East,High,46,Centralized,88,Descriptive,Partial,46,61,0.72,7,17.81,Low,4383227,24,90,62
+C0318,Finance,Small,Asia-Pacific,High,91,Centralized,81,AutoML,Yes,81,61,0.13,10,6.38,Medium,253474,44,57,91
+C0319,Education,Medium,US,Medium,96,Hybrid,16,Prescriptive,Yes,69,71,-0.69,7,25.05,Low,7131580,33,75,77
+C0320,Education,Large,Asia-Pacific,Low,51,Decentralized,72,Descriptive,Yes,61,61,0.38,6,1.92,Low,176745,20,79,80
+C0321,Telecom,Large,Africa,Low,55,Centralized,55,AutoML,Yes,48,55,0.03,3,-9.53,Medium,7579131,48,60,54
+C0322,Finance,Large,US,Low,55,Decentralized,72,Prescriptive,Yes,58,30,0.3,5,2.03,Medium,8196837,30,90,87
+C0323,Healthcare,Large,Europe,High,82,Centralized,21,Prescriptive,Partial,79,85,0.78,3,13.12,Medium,1852572,44,69,92
+C0324,Education,Medium,Europe,Low,92,Centralized,22,Prescriptive,Partial,60,31,-0.12,6,5.04,High,7370973,9,69,79
+C0325,Technology,Large,Middle East,High,75,Centralized,52,Predictive,Yes,52,59,0.8,10,11.39,High,6716013,45,58,55
+C0326,Finance,Large,US,High,52,Centralized,26,Descriptive,Partial,35,100,0.5,0,25.06,Low,3145039,49,57,71
+C0327,Retail,Small,India,Medium,46,Decentralized,72,Prescriptive,Partial,42,81,-0.02,4,26.5,Medium,9812259,17,64,76
+C0328,Technology,Large,US,Medium,75,Centralized,90,Predictive,No,26,38,0.21,9,0.64,Low,8117034,36,83,57
+C0329,Technology,Medium,Africa,Medium,86,Hybrid,45,AutoML,Yes,45,51,-0.35,9,8.49,Low,950794,14,73,59
+C0330,Retail,Medium,India,Medium,90,Hybrid,94,Prescriptive,Partial,31,63,0.97,3,11.97,Low,1982457,19,82,85
+C0331,Finance,Medium,Europe,Medium,48,Decentralized,17,Predictive,Partial,91,78,0.33,10,27.96,Low,1457539,7,90,41
+C0332,Retail,Medium,US,High,71,Centralized,78,Prescriptive,Yes,24,30,-0.91,6,29.94,Low,6118735,59,90,94
+C0333,Telecom,Large,Asia-Pacific,High,50,Hybrid,99,Descriptive,No,88,82,-0.35,8,-0.58,Medium,5396492,3,94,62
+C0334,Technology,Large,Middle East,Low,47,Decentralized,89,Descriptive,Yes,68,69,0.25,4,19.08,High,6305735,33,89,69
+C0335,Manufacturing,Medium,Asia-Pacific,High,72,Centralized,45,AutoML,No,45,74,-0.89,3,5.12,Medium,4330424,44,76,42
+C0336,Manufacturing,Medium,Middle East,High,62,Hybrid,37,Prescriptive,Yes,24,97,-0.95,8,-9.68,Medium,5148145,32,70,85
+C0337,Healthcare,Large,Africa,Medium,64,Hybrid,56,Predictive,Yes,41,38,-0.1,4,-9.63,Medium,927350,47,54,100
+C0338,Education,Medium,Asia-Pacific,High,95,Decentralized,85,AutoML,Yes,98,51,-0.33,8,8.42,High,9029496,11,84,78
+C0339,Retail,Small,US,Medium,47,Centralized,39,Prescriptive,Yes,32,47,-0.12,7,9.53,High,5271227,42,70,86
+C0340,Retail,Medium,US,Low,84,Centralized,32,AutoML,No,47,72,-0.47,3,-9.1,High,8969716,2,53,88
+C0341,Healthcare,Medium,Asia-Pacific,Low,61,Hybrid,25,Predictive,No,52,68,-0.67,10,17.48,Medium,363678,26,98,40
+C0342,Healthcare,Small,US,High,98,Hybrid,23,AutoML,Partial,42,35,0.38,10,1.76,High,1839087,4,97,80
+C0343,Healthcare,Small,Africa,Low,43,Hybrid,83,AutoML,Yes,37,77,0.03,6,12.4,Low,8085168,17,65,61
+C0344,Technology,Large,India,High,79,Centralized,80,AutoML,No,49,36,-0.6,4,2.04,High,2492716,17,80,68
+C0345,Telecom,Large,Africa,Low,42,Decentralized,61,Prescriptive,No,45,98,-0.36,9,-3.31,Medium,1277103,28,75,53
+C0346,Retail,Small,Middle East,Medium,68,Decentralized,46,Predictive,No,35,45,0.18,3,6.29,Medium,9832816,30,84,87
+C0347,Technology,Small,Africa,Medium,80,Centralized,38,Descriptive,Yes,96,30,-0.86,4,-0.71,Low,6524961,40,55,67
+C0348,Healthcare,Large,Middle East,Medium,68,Decentralized,76,Prescriptive,Partial,58,66,-0.71,4,11.39,High,7476041,23,82,60
+C0349,Retail,Medium,US,Medium,73,Hybrid,24,Descriptive,No,52,66,-0.85,10,-2.05,High,583885,46,70,84
+C0350,Technology,Small,India,High,73,Decentralized,56,Descriptive,Yes,45,93,0.62,8,10.34,Low,7450099,24,65,71
+C0351,Telecom,Large,US,Low,67,Decentralized,55,Prescriptive,No,67,91,0.5,8,-3.7,Medium,1841456,29,96,45
+C0352,Technology,Medium,Europe,High,52,Decentralized,61,Prescriptive,No,84,90,0.51,5,16.84,Medium,5143409,4,88,93
+C0353,Telecom,Small,US,Medium,54,Hybrid,28,Predictive,Partial,57,62,0.43,3,20.16,High,4656302,38,83,40
+C0354,Healthcare,Medium,Middle East,High,99,Centralized,86,Predictive,No,21,95,0.34,1,-5.58,High,6917526,29,91,60
+C0355,Telecom,Large,US,Low,62,Hybrid,30,AutoML,No,25,59,-0.05,2,8.71,High,8100405,19,64,96
+C0356,Retail,Small,US,High,83,Centralized,73,Descriptive,Yes,65,49,0.28,1,-7.17,High,8287180,27,55,43
+C0357,Healthcare,Medium,India,Low,65,Centralized,46,Predictive,Yes,69,89,-0.92,4,13.93,High,2648677,29,51,42
+C0358,Retail,Small,US,High,43,Centralized,36,AutoML,Partial,57,53,0.24,5,0.58,Medium,7245918,56,73,88
+C0359,Manufacturing,Medium,India,Low,65,Decentralized,64,Predictive,Yes,37,33,0.56,10,11.1,Medium,9297076,36,98,69
+C0360,Finance,Large,Asia-Pacific,Low,79,Decentralized,38,Prescriptive,Yes,46,66,0.0,4,10.7,Medium,5378625,35,77,70
+C0361,Telecom,Large,Europe,Medium,48,Centralized,29,Predictive,Partial,60,33,-0.28,1,26.97,Medium,9721832,52,50,73
+C0362,Finance,Small,India,Low,94,Centralized,34,Descriptive,No,91,47,-0.45,4,11.96,Low,156998,6,50,58
+C0363,Finance,Medium,Middle East,Medium,44,Decentralized,79,Predictive,Partial,93,95,0.29,8,13.32,Medium,6391477,59,77,59
+C0364,Telecom,Small,Asia-Pacific,Medium,95,Hybrid,72,Descriptive,Yes,36,77,0.39,3,6.07,Low,7852305,23,85,62
+C0365,Healthcare,Small,India,Medium,71,Centralized,45,Prescriptive,Partial,81,62,0.74,9,27.96,Medium,4764714,39,69,93
+C0366,Manufacturing,Medium,India,High,59,Hybrid,11,Descriptive,No,48,87,-0.32,1,21.09,High,5423552,46,97,98
+C0367,Retail,Medium,Europe,High,89,Decentralized,31,Predictive,Partial,77,57,0.54,2,1.42,High,8819311,44,57,79
+C0368,Technology,Medium,Middle East,High,50,Centralized,25,AutoML,Yes,89,64,0.12,2,23.77,High,8243300,48,50,64
+C0369,Retail,Large,Africa,High,54,Hybrid,27,Prescriptive,Yes,97,39,0.77,8,7.3,Low,6237459,52,75,54
+C0370,Technology,Small,Africa,Low,71,Hybrid,78,Predictive,Partial,41,94,0.06,3,23.15,Medium,4989179,8,100,77
+C0371,Retail,Small,India,Low,67,Hybrid,63,Prescriptive,No,25,71,0.04,0,22.92,Medium,4668322,55,92,62
+C0372,Telecom,Large,US,High,61,Decentralized,39,Prescriptive,Partial,45,38,0.16,0,-2.45,Low,9967153,2,98,91
+C0373,Manufacturing,Medium,Middle East,Low,80,Decentralized,54,Predictive,No,58,89,0.5,6,18.05,Low,9149790,13,74,41
+C0374,Technology,Large,Asia-Pacific,Low,56,Hybrid,28,Predictive,No,31,44,0.93,6,1.63,Low,6706289,40,59,96
+C0375,Education,Large,US,Medium,98,Hybrid,96,AutoML,Partial,33,86,-0.85,1,1.9,Low,8518899,57,61,96
+C0376,Healthcare,Large,US,Medium,65,Decentralized,43,Prescriptive,No,41,98,-0.89,8,1.85,Low,4072610,21,90,54
+C0377,Retail,Small,Middle East,Medium,83,Hybrid,22,Prescriptive,Yes,70,51,0.88,8,19.02,High,1789528,31,56,91
+C0378,Retail,Large,India,Medium,46,Hybrid,52,Predictive,Partial,42,93,0.06,4,-0.81,Medium,4824598,52,61,83
+C0379,Technology,Small,India,Low,81,Decentralized,71,Descriptive,No,67,70,0.23,2,-9.96,Low,9067164,48,96,74
+C0380,Healthcare,Small,India,High,96,Hybrid,31,Predictive,Yes,90,100,-0.04,2,18.61,High,271163,36,89,49
+C0381,Healthcare,Small,India,Low,65,Hybrid,61,Prescriptive,Partial,69,85,-0.81,2,-3.15,Low,6136540,48,66,53
+C0382,Telecom,Medium,Africa,Low,64,Hybrid,61,Predictive,Yes,32,52,0.54,5,-5.82,High,1947678,52,54,66
+C0383,Education,Small,India,Low,49,Decentralized,45,AutoML,Yes,29,54,0.49,3,-0.5,Low,3700824,38,63,93
+C0384,Telecom,Small,Africa,Medium,98,Hybrid,82,Descriptive,Yes,74,35,-0.38,7,5.2,Medium,8549180,27,83,53
+C0385,Telecom,Medium,Africa,Medium,84,Decentralized,28,Predictive,No,28,63,-0.39,10,9.04,Low,6082419,36,97,74
+C0386,Telecom,Small,India,Medium,58,Decentralized,47,AutoML,Partial,98,92,0.68,10,-8.22,Low,6427844,48,66,72
+C0387,Telecom,Large,Europe,High,50,Centralized,79,Prescriptive,Partial,71,38,-0.86,10,28.82,Medium,6106929,23,84,91
+C0388,Telecom,Large,Asia-Pacific,Low,52,Centralized,88,Predictive,No,21,89,0.76,4,18.64,Medium,5080811,55,50,40
+C0389,Manufacturing,Small,US,High,92,Hybrid,66,Prescriptive,Partial,44,78,-0.49,0,2.93,Low,9247671,21,99,73
+C0390,Healthcare,Medium,Africa,Medium,47,Decentralized,29,AutoML,Yes,32,80,0.19,8,2.75,Medium,4891712,13,99,58
+C0391,Telecom,Large,Middle East,High,79,Centralized,18,Prescriptive,Partial,70,89,0.87,0,7.94,Medium,6851256,37,85,63
+C0392,Healthcare,Medium,Middle East,Low,43,Hybrid,41,AutoML,No,77,99,0.36,5,15.05,High,451099,47,64,81
+C0393,Healthcare,Medium,Asia-Pacific,Low,86,Centralized,13,AutoML,Yes,53,66,-0.17,0,-4.15,Medium,4132940,26,68,43
+C0394,Finance,Large,Middle East,Medium,70,Centralized,59,AutoML,No,54,60,0.38,2,-2.44,Medium,7960541,40,100,75
+C0395,Manufacturing,Medium,Europe,Medium,67,Decentralized,91,Predictive,Yes,22,70,-0.31,9,24.38,Low,1246845,7,91,52
+C0396,Telecom,Large,Middle East,High,50,Decentralized,14,Prescriptive,Yes,78,91,-0.45,4,0.25,Low,2037214,46,54,97
+C0397,Retail,Medium,US,Medium,82,Centralized,29,Prescriptive,Partial,89,87,0.99,9,5.21,High,7758098,39,68,71
+C0398,Technology,Large,US,Medium,40,Centralized,96,Descriptive,Yes,67,43,0.5,6,24.85,Low,6375006,22,92,48
+C0399,Education,Small,Africa,Low,88,Decentralized,84,Descriptive,No,83,65,0.29,9,16.53,Medium,8715394,39,88,78
+C0400,Retail,Large,India,Medium,86,Hybrid,46,Descriptive,Partial,38,65,-0.29,7,3.67,Medium,4133671,23,54,55
+C0401,Manufacturing,Large,Europe,Medium,91,Decentralized,31,Descriptive,No,86,37,-0.9,8,17.35,Medium,4211011,58,61,89
+C0402,Technology,Large,Africa,Low,77,Centralized,67,Prescriptive,Yes,92,55,-0.94,5,-9.21,Low,8856407,30,68,42
+C0403,Manufacturing,Large,Europe,Low,63,Hybrid,77,AutoML,No,95,65,0.11,10,19.43,Medium,3813901,18,96,91
+C0404,Healthcare,Medium,India,High,93,Centralized,53,AutoML,No,24,77,0.52,8,9.48,Medium,4848130,42,61,59
+C0405,Technology,Small,Middle East,Medium,99,Hybrid,43,Predictive,Yes,86,57,0.07,7,22.53,High,4568462,18,85,49
+C0406,Healthcare,Large,Middle East,Low,96,Centralized,86,AutoML,Partial,30,97,0.68,8,28.19,High,2953107,46,61,95
+C0407,Retail,Medium,India,High,86,Hybrid,51,Prescriptive,No,87,91,-0.93,9,27.03,High,7067359,10,67,97
+C0408,Retail,Small,Africa,High,70,Hybrid,18,Prescriptive,Yes,88,80,-0.27,3,26.37,Low,4334933,39,98,97
+C0409,Technology,Small,India,Medium,80,Centralized,16,Prescriptive,Partial,20,71,-0.53,8,10.49,Medium,6328262,30,100,61
+C0410,Technology,Small,Asia-Pacific,Medium,85,Hybrid,77,Predictive,Partial,82,58,-0.11,6,4.41,Medium,2486126,26,97,87
+C0411,Telecom,Small,US,High,89,Decentralized,28,Descriptive,Partial,48,39,-0.86,4,8.6,Medium,9794866,7,92,42
+C0412,Manufacturing,Large,Africa,Low,65,Centralized,40,AutoML,No,31,68,0.91,4,17.6,High,1213842,7,83,50
+C0413,Telecom,Large,Europe,High,88,Decentralized,44,Prescriptive,No,96,30,-0.55,0,25.36,Medium,5481242,5,97,64
+C0414,Manufacturing,Medium,Asia-Pacific,Medium,89,Centralized,66,Prescriptive,No,60,68,0.84,1,-1.72,Medium,4691154,1,82,81
+C0415,Telecom,Medium,Africa,Low,44,Hybrid,94,Descriptive,Partial,21,50,-0.15,9,26.73,Medium,2946283,46,98,87
+C0416,Healthcare,Medium,India,Low,59,Hybrid,70,Prescriptive,No,56,94,0.97,2,22.61,Medium,4323487,18,67,47
+C0417,Technology,Small,India,High,91,Hybrid,40,AutoML,Yes,64,44,0.11,7,29.15,Medium,8498890,13,78,48
+C0418,Retail,Small,India,Medium,80,Centralized,92,Predictive,No,99,33,0.86,5,25.21,Low,5855344,25,94,54
+C0419,Manufacturing,Large,India,High,50,Decentralized,62,Prescriptive,No,67,89,-0.99,9,1.2,Medium,173844,40,54,71
+C0420,Manufacturing,Small,Europe,High,95,Decentralized,41,AutoML,Partial,43,90,0.5,10,-5.76,Low,6708187,8,74,92
+C0421,Retail,Small,Asia-Pacific,High,93,Centralized,75,Prescriptive,No,41,49,0.81,4,-5.51,Medium,2481275,10,73,42
+C0422,Telecom,Small,Middle East,Low,72,Centralized,68,Descriptive,Yes,30,39,-0.72,0,1.65,Low,6944604,32,78,43
+C0423,Manufacturing,Medium,US,Low,89,Decentralized,19,Prescriptive,Partial,77,63,-0.81,10,14.57,Medium,3987080,17,87,69
+C0424,Education,Medium,Europe,Medium,77,Decentralized,11,Prescriptive,Yes,65,77,-0.15,8,22.17,Medium,6326959,38,82,52
+C0425,Healthcare,Large,Europe,Medium,66,Decentralized,75,Predictive,Partial,48,62,0.87,2,25.97,Medium,8432863,15,59,83
+C0426,Technology,Small,Middle East,High,73,Decentralized,69,Descriptive,Partial,54,90,0.08,2,14.95,Medium,2971580,15,86,60
+C0427,Retail,Small,Middle East,High,54,Centralized,97,Descriptive,No,34,39,0.05,1,-9.77,High,7794996,57,82,80
+C0428,Technology,Large,US,High,71,Centralized,26,Predictive,Yes,79,83,-0.72,3,-2.55,Medium,6697671,48,72,96
+C0429,Education,Small,US,Medium,100,Hybrid,25,Prescriptive,Partial,61,94,-1.0,1,-6.01,Low,7250622,40,60,85
+C0430,Manufacturing,Small,Middle East,Low,97,Decentralized,25,AutoML,No,62,30,0.62,8,4.53,High,4700699,51,73,58
+C0431,Manufacturing,Medium,India,Low,60,Hybrid,55,Descriptive,Partial,99,34,-0.82,9,10.05,High,7442788,20,73,78
+C0432,Education,Large,Europe,High,85,Centralized,48,Descriptive,Partial,93,44,0.27,6,-8.26,Medium,6129547,15,56,87
+C0433,Retail,Large,Africa,High,44,Centralized,40,Prescriptive,Partial,68,57,0.83,7,3.94,Low,9350842,35,99,61
+C0434,Healthcare,Large,US,High,45,Hybrid,97,Prescriptive,Partial,83,52,-0.58,2,-2.83,Low,4226116,6,70,59
+C0435,Finance,Large,US,High,77,Decentralized,10,Descriptive,Partial,51,46,0.33,5,15.88,High,3074320,30,69,76
+C0436,Retail,Medium,Middle East,Medium,61,Decentralized,20,Prescriptive,Partial,83,42,-0.84,9,8.57,Low,2346397,57,59,70
+C0437,Finance,Medium,Asia-Pacific,Low,57,Decentralized,94,AutoML,No,21,43,0.21,5,9.81,Medium,1597840,8,74,49
+C0438,Education,Small,Africa,High,53,Decentralized,13,Descriptive,Partial,43,40,-0.67,0,7.11,Medium,9572517,31,96,57
+C0439,Telecom,Small,Africa,Medium,49,Hybrid,80,AutoML,Yes,85,57,0.47,5,28.24,Medium,1050778,48,85,82
+C0440,Finance,Small,US,High,85,Hybrid,35,AutoML,No,57,71,-0.4,2,-1.41,Medium,3048277,47,97,78
+C0441,Healthcare,Small,India,High,52,Centralized,59,Prescriptive,Yes,50,90,-0.07,10,10.67,Medium,8954851,32,96,85
+C0442,Telecom,Medium,Asia-Pacific,Low,70,Decentralized,21,AutoML,Partial,45,93,0.2,2,19.44,High,7238884,45,64,59
+C0443,Finance,Large,Africa,High,69,Decentralized,90,Prescriptive,Yes,48,60,-0.66,2,12.27,Medium,5788753,58,93,57
+C0444,Education,Medium,US,Low,42,Decentralized,84,Predictive,Partial,86,39,0.48,9,27.16,Medium,8977961,52,89,50
+C0445,Telecom,Small,Africa,Low,69,Hybrid,74,Prescriptive,Partial,97,37,-0.39,10,5.12,High,6689070,15,89,61
+C0446,Education,Medium,Asia-Pacific,Low,45,Decentralized,56,AutoML,No,44,50,0.32,10,8.55,High,2161577,18,99,98
+C0447,Finance,Large,Asia-Pacific,Medium,68,Hybrid,62,Predictive,No,67,88,-0.68,9,-6.46,High,2946695,13,55,83
+C0448,Education,Large,Europe,Medium,47,Decentralized,80,Prescriptive,Partial,84,79,0.38,10,14.36,Low,5464751,24,86,57
+C0449,Healthcare,Medium,Middle East,Low,83,Decentralized,11,AutoML,No,72,98,-0.74,7,1.53,Low,6919001,40,51,97
+C0450,Finance,Medium,Middle East,High,84,Centralized,33,Descriptive,Yes,86,99,-0.15,4,-3.59,Medium,4106150,14,61,73
+C0451,Finance,Medium,US,Low,82,Decentralized,13,Descriptive,No,37,59,-0.51,3,11.78,Medium,6009417,28,53,62
+C0452,Finance,Small,Asia-Pacific,High,83,Decentralized,28,Prescriptive,No,28,46,0.5,8,11.29,Medium,2012821,11,72,40
+C0453,Retail,Medium,Europe,Low,72,Centralized,35,Prescriptive,Yes,57,49,-0.48,8,-6.97,Low,2490342,6,62,94
+C0454,Retail,Medium,Europe,High,56,Hybrid,84,Descriptive,No,40,77,0.76,0,17.93,Medium,5825984,56,66,49
+C0455,Retail,Medium,Africa,Medium,87,Hybrid,49,AutoML,Partial,84,31,0.78,1,14.95,Medium,5763949,25,80,92
+C0456,Healthcare,Large,Africa,High,50,Decentralized,59,AutoML,Yes,40,66,-0.61,7,-2.44,Low,8440783,1,65,40
+C0457,Telecom,Large,Europe,Low,52,Hybrid,52,AutoML,Partial,46,30,0.23,4,8.78,High,9760669,25,90,77
+C0458,Education,Small,Africa,Medium,89,Decentralized,84,Prescriptive,Yes,89,33,-0.82,6,18.81,Low,2997492,2,75,78
+C0459,Manufacturing,Small,Asia-Pacific,High,50,Centralized,76,Predictive,Partial,63,83,-0.22,0,11.18,Medium,2336113,32,77,88
+C0460,Finance,Large,India,High,70,Centralized,21,Predictive,Partial,47,54,0.43,9,5.82,Low,3657838,13,50,48
+C0461,Education,Large,Asia-Pacific,High,67,Decentralized,76,Predictive,No,64,32,0.32,4,2.89,High,8065119,33,96,70
+C0462,Finance,Large,Europe,High,83,Centralized,36,Predictive,Partial,36,38,0.25,10,14.42,High,608867,32,61,46
+C0463,Healthcare,Medium,Europe,High,45,Centralized,63,Predictive,No,59,63,-0.43,2,27.56,High,5389434,56,86,56
+C0464,Finance,Medium,Asia-Pacific,Medium,80,Decentralized,75,Prescriptive,Yes,22,72,-0.24,9,16.87,High,2819067,24,99,74
+C0465,Retail,Large,Africa,Medium,55,Decentralized,58,Prescriptive,Partial,95,51,-0.79,1,-7.01,High,6915521,27,69,87
+C0466,Manufacturing,Medium,Africa,Medium,43,Centralized,25,Predictive,Partial,95,99,0.44,1,8.43,High,5692002,4,51,76
+C0467,Technology,Medium,Middle East,Medium,74,Hybrid,11,Prescriptive,Yes,85,31,0.01,8,25.63,Medium,90751,24,85,91
+C0468,Finance,Small,Europe,Low,99,Hybrid,69,Prescriptive,Yes,65,95,0.42,3,-6.22,Medium,1299247,23,64,57
+C0469,Education,Large,US,Medium,87,Decentralized,63,Predictive,Partial,49,61,-0.5,3,29.56,Low,5401630,29,87,72
+C0470,Retail,Large,Middle East,High,95,Decentralized,39,AutoML,Yes,88,45,-0.35,6,27.96,Medium,7104730,34,71,43
+C0471,Technology,Medium,Africa,High,98,Hybrid,93,Prescriptive,No,28,30,-0.33,9,-6.87,High,3229249,21,93,62
+C0472,Manufacturing,Large,Asia-Pacific,Medium,65,Centralized,47,AutoML,Yes,30,77,-0.95,9,27.34,Medium,9068051,30,99,50
+C0473,Technology,Small,Africa,High,96,Hybrid,37,Prescriptive,Yes,88,79,-0.32,1,4.53,Low,1038144,26,81,91
+C0474,Retail,Small,Asia-Pacific,Medium,51,Hybrid,34,Prescriptive,Partial,85,42,0.61,2,23.79,High,6761971,20,69,48
+C0475,Telecom,Small,Middle East,High,50,Hybrid,19,Predictive,No,50,44,0.79,2,6.74,Medium,9478143,16,85,69
+C0476,Telecom,Large,Europe,Low,76,Hybrid,69,Prescriptive,Yes,52,82,0.04,5,7.63,Medium,5734054,3,82,47
+C0477,Technology,Large,Africa,Low,64,Decentralized,51,Descriptive,No,58,73,-0.09,2,15.37,Low,2334302,49,64,79
+C0478,Healthcare,Large,Asia-Pacific,Medium,57,Decentralized,49,Descriptive,No,65,37,-0.94,10,20.98,High,847634,37,99,44
+C0479,Education,Large,Europe,Medium,58,Centralized,86,Predictive,No,56,75,0.76,4,-8.65,Low,421551,58,95,51
+C0480,Education,Large,US,Medium,62,Centralized,51,AutoML,Partial,79,98,-0.97,3,13.73,High,4219895,40,52,40
+C0481,Technology,Small,Asia-Pacific,High,94,Centralized,56,AutoML,Yes,50,48,0.89,2,-2.53,High,9529821,44,78,54
+C0482,Finance,Medium,Middle East,Medium,77,Centralized,46,AutoML,Partial,30,67,-0.02,7,3.84,Medium,7414308,25,96,64
+C0483,Finance,Small,US,Low,93,Hybrid,89,Descriptive,Yes,21,40,-0.32,9,3.92,Low,6258623,23,76,57
+C0484,Education,Large,US,High,57,Decentralized,31,AutoML,Yes,46,72,0.85,2,8.76,Low,4057374,44,54,77
+C0485,Education,Small,India,Medium,65,Decentralized,66,AutoML,Partial,21,49,-0.95,5,3.37,Low,205647,59,80,81
+C0486,Telecom,Large,Africa,High,45,Centralized,93,Predictive,No,40,49,0.16,6,-5.71,High,6027664,1,71,85
+C0487,Healthcare,Large,Asia-Pacific,High,43,Centralized,36,AutoML,No,77,50,0.1,6,-4.17,Low,9616710,33,84,92
+C0488,Retail,Small,US,Medium,83,Hybrid,50,Descriptive,Yes,24,86,-0.56,1,-8.66,High,8900441,15,56,65
+C0489,Finance,Large,India,High,90,Hybrid,89,Descriptive,Partial,71,79,-0.14,2,8.81,Low,5294412,17,55,100
+C0490,Education,Medium,Middle East,Low,68,Centralized,43,Descriptive,No,64,55,0.3,9,28.18,Low,1804741,34,75,79
+C0491,Telecom,Large,Europe,Low,98,Decentralized,41,Predictive,No,39,59,0.45,9,-5.37,Medium,1180127,17,50,98
+C0492,Manufacturing,Medium,Asia-Pacific,High,100,Decentralized,99,Predictive,Yes,80,60,-1.0,3,27.85,Low,6510284,52,68,42
+C0493,Telecom,Medium,US,Medium,73,Decentralized,98,Prescriptive,Yes,57,71,0.87,6,19.33,Medium,5144733,58,56,93
+C0494,Finance,Large,Africa,High,56,Centralized,75,AutoML,Partial,39,97,-0.67,1,15.5,Medium,4974306,41,85,61
+C0495,Finance,Small,India,Low,82,Decentralized,21,Predictive,Yes,44,90,-0.53,2,15.81,High,1001710,44,61,65
+C0496,Telecom,Medium,US,High,82,Hybrid,49,Descriptive,No,21,90,-0.47,6,23.07,Low,4357427,4,69,58
+C0497,Retail,Small,Africa,High,92,Hybrid,82,Descriptive,No,51,99,-0.92,6,-5.72,Low,7789637,13,72,83
+C0498,Technology,Medium,US,Low,55,Centralized,85,Predictive,No,45,97,-0.75,9,10.19,Low,6970343,4,74,83
+C0499,Finance,Large,Asia-Pacific,High,41,Hybrid,99,Predictive,No,89,46,0.97,2,17.88,Medium,8255703,7,79,86
+C0500,Telecom,Large,Asia-Pacific,High,73,Centralized,82,Predictive,Partial,60,48,-0.37,0,13.47,Low,3564734,46,78,99
+C0501,Education,Medium,Asia-Pacific,Medium,94,Decentralized,19,Prescriptive,Partial,86,80,-0.77,2,23.31,High,1347327,59,80,78
+C0502,Telecom,Large,Middle East,Medium,47,Decentralized,57,Descriptive,Yes,20,99,-0.79,4,-7.11,High,4061577,9,67,98
+C0503,Healthcare,Medium,Middle East,Low,52,Decentralized,29,Prescriptive,Yes,70,92,0.44,6,17.63,Low,9274277,23,90,75
+C0504,Technology,Large,India,Low,81,Hybrid,48,Prescriptive,Yes,24,59,0.71,3,11.36,Medium,9109382,33,68,60
+C0505,Manufacturing,Small,Asia-Pacific,Low,47,Centralized,69,AutoML,Partial,32,54,-0.49,10,5.17,High,9615817,33,53,80
+C0506,Retail,Large,Africa,Medium,69,Decentralized,75,Descriptive,No,38,100,-0.96,10,3.61,High,9304905,20,50,93
+C0507,Manufacturing,Small,US,Low,71,Centralized,74,Descriptive,Yes,31,55,-0.55,0,14.83,Medium,4830651,4,90,87
+C0508,Technology,Large,Europe,Low,75,Decentralized,60,Predictive,No,67,85,-0.89,5,25.64,High,361294,1,64,65
+C0509,Technology,Small,Africa,Low,86,Hybrid,45,Predictive,Yes,44,51,-0.79,1,9.85,Medium,1663955,54,57,52
+C0510,Technology,Large,Middle East,Medium,69,Hybrid,33,AutoML,Yes,76,48,-0.14,2,22.99,High,2351348,42,64,75
+C0511,Manufacturing,Small,Middle East,High,40,Centralized,36,Prescriptive,Yes,54,60,-0.54,3,6.09,Medium,6342359,34,64,63
+C0512,Education,Medium,Africa,Low,82,Hybrid,11,Predictive,Yes,95,55,0.03,5,-5.9,High,5084971,27,99,80
+C0513,Technology,Medium,Middle East,High,78,Hybrid,40,Predictive,Yes,24,71,-0.49,5,-7.54,Low,5328452,21,88,65
+C0514,Telecom,Small,Asia-Pacific,Low,56,Centralized,66,Descriptive,No,41,70,0.88,6,-7.95,High,4593511,24,71,60
+C0515,Manufacturing,Large,India,High,98,Decentralized,87,Descriptive,Yes,96,52,0.81,4,5.21,High,3118689,15,67,57
+C0516,Technology,Small,US,Medium,59,Hybrid,75,Predictive,No,76,76,0.13,6,3.49,Low,2569379,35,65,54
+C0517,Telecom,Large,India,Medium,63,Centralized,38,Descriptive,Partial,66,42,-0.29,1,18.72,Low,4297837,25,51,54
+C0518,Education,Medium,US,Low,89,Hybrid,24,AutoML,Yes,73,95,-0.24,0,19.71,Low,6203301,55,85,45
+C0519,Healthcare,Large,US,High,61,Hybrid,21,Predictive,No,22,95,-0.18,9,-7.97,Low,1218964,9,69,82
+C0520,Education,Medium,India,Medium,68,Hybrid,37,Descriptive,Partial,72,45,0.46,7,-1.16,Medium,6108014,17,65,70
+C0521,Technology,Large,Africa,Low,61,Hybrid,93,AutoML,Partial,50,57,-0.1,0,0.97,Medium,9233671,21,52,67
+C0522,Manufacturing,Large,US,Low,83,Centralized,33,Descriptive,Partial,88,64,0.71,1,11.9,High,7644968,13,79,47
+C0523,Finance,Large,India,Medium,48,Centralized,30,Descriptive,No,52,70,0.89,10,-4.22,High,5941966,3,51,68
+C0524,Technology,Small,US,Medium,76,Centralized,19,Descriptive,Yes,91,60,-0.33,9,-4.64,High,5887211,4,84,60
+C0525,Finance,Small,Europe,Low,49,Hybrid,87,Predictive,Yes,69,61,0.12,5,27.75,Medium,4179295,4,75,56
+C0526,Telecom,Medium,Africa,High,75,Hybrid,27,Prescriptive,No,35,83,-0.81,0,22.17,High,8074373,43,54,95
+C0527,Healthcare,Medium,Asia-Pacific,High,76,Hybrid,97,Descriptive,Yes,95,88,-0.6,9,-2.77,High,4017924,28,51,96
+C0528,Retail,Small,US,High,67,Centralized,23,AutoML,No,96,70,-0.17,2,6.26,Medium,3952859,7,100,88
+C0529,Education,Medium,Europe,Low,67,Hybrid,43,Predictive,Yes,58,95,-0.59,6,4.22,High,4234737,26,69,63
+C0530,Healthcare,Small,Asia-Pacific,Medium,81,Decentralized,67,Predictive,Partial,65,83,0.75,7,21.64,Medium,6994758,11,83,97
+C0531,Technology,Large,Asia-Pacific,Low,82,Hybrid,85,AutoML,Yes,66,69,-0.68,3,10.41,Medium,4357380,24,83,99
+C0532,Finance,Medium,US,Medium,60,Decentralized,31,Descriptive,No,63,57,-0.09,2,-4.89,Low,2868710,43,69,89
+C0533,Education,Medium,India,High,63,Hybrid,79,Prescriptive,No,28,66,0.21,0,19.56,Low,4007100,10,99,75
+C0534,Finance,Small,US,High,81,Centralized,45,Descriptive,Partial,69,94,0.38,8,5.88,Medium,9558976,37,74,100
+C0535,Manufacturing,Medium,Europe,Medium,99,Hybrid,54,AutoML,No,96,84,-0.23,9,0.52,Medium,7398399,13,69,70
+C0536,Finance,Medium,Asia-Pacific,Medium,79,Decentralized,45,Predictive,Yes,79,33,0.74,5,5.02,Low,7100417,44,74,86
+C0537,Manufacturing,Large,US,Low,41,Decentralized,31,Prescriptive,Yes,34,39,0.14,5,9.91,High,9233613,42,63,73
+C0538,Telecom,Medium,India,High,94,Hybrid,87,Predictive,Partial,55,76,-0.12,8,3.72,High,3332178,39,96,41
+C0539,Education,Large,US,Low,47,Decentralized,89,AutoML,No,82,43,-0.87,0,-0.32,High,5961740,19,93,81
+C0540,Education,Small,Africa,Low,87,Decentralized,70,Descriptive,Partial,88,67,-0.07,5,5.94,Medium,1644745,51,92,42
+C0541,Retail,Medium,India,Low,66,Centralized,65,Prescriptive,Yes,99,41,0.64,4,-9.23,Low,5999782,19,92,69
+C0542,Technology,Large,Europe,High,61,Hybrid,98,Predictive,Partial,60,74,0.23,10,20.9,High,4833877,12,88,47
+C0543,Manufacturing,Small,Asia-Pacific,Low,76,Hybrid,42,Predictive,No,93,46,0.66,5,-3.16,Low,5352427,52,61,91
+C0544,Retail,Medium,US,Low,66,Hybrid,54,Predictive,Partial,43,64,-0.01,10,-8.24,Low,7004038,22,97,46
+C0545,Finance,Small,India,Low,96,Decentralized,45,Descriptive,No,68,95,-0.76,7,16.15,Medium,7397965,47,54,51
+C0546,Finance,Medium,Africa,Low,68,Hybrid,29,Prescriptive,No,37,70,-0.97,4,20.96,High,9203735,37,51,97
+C0547,Retail,Small,India,Low,42,Hybrid,27,Descriptive,Yes,26,96,-0.39,1,22.55,Low,5915874,56,65,58
+C0548,Education,Small,Middle East,Low,83,Centralized,47,Descriptive,Yes,23,58,0.4,1,9.74,Medium,6217324,30,79,65
+C0549,Finance,Large,Africa,High,52,Centralized,76,Descriptive,Yes,88,47,0.58,9,-1.79,Medium,6516138,46,96,67
+C0550,Telecom,Small,Europe,Low,84,Centralized,32,AutoML,No,79,49,-0.41,4,19.49,Medium,1418240,12,92,54
+C0551,Telecom,Medium,Asia-Pacific,Medium,49,Decentralized,25,AutoML,Partial,74,43,-0.01,2,17.99,High,5821712,29,87,53
+C0552,Retail,Medium,Europe,Low,75,Hybrid,68,AutoML,No,35,63,-0.16,9,-0.15,High,5252662,21,94,87
+C0553,Manufacturing,Large,US,Low,48,Centralized,78,Prescriptive,Yes,48,78,-0.18,2,26.14,Medium,2041524,11,100,100
+C0554,Manufacturing,Medium,India,High,93,Centralized,77,Descriptive,Yes,42,83,-0.54,7,-5.83,High,7607086,37,91,98
+C0555,Retail,Medium,Middle East,High,95,Centralized,30,Descriptive,Partial,33,60,-0.73,6,29.31,High,7877327,48,73,53
+C0556,Manufacturing,Medium,Africa,Medium,94,Hybrid,87,AutoML,Yes,98,87,-0.61,0,24.41,Low,5218394,58,100,42
+C0557,Education,Small,Africa,Medium,66,Hybrid,87,Descriptive,Yes,68,71,-0.89,4,17.52,Medium,3613733,18,79,89
+C0558,Education,Small,India,High,73,Hybrid,79,Descriptive,Yes,52,87,-0.6,8,27.55,Medium,6736289,44,86,68
+C0559,Manufacturing,Medium,Middle East,High,90,Decentralized,21,Predictive,Partial,44,59,-0.98,3,18.89,High,9063730,59,88,99
+C0560,Telecom,Large,India,Low,40,Decentralized,25,Descriptive,No,40,54,0.25,0,-2.38,Medium,2187154,27,60,93
+C0561,Manufacturing,Small,US,High,71,Centralized,90,Predictive,Yes,36,92,-0.37,7,7.69,Medium,8694157,37,63,45
+C0562,Education,Large,Europe,Medium,64,Hybrid,96,Descriptive,Partial,42,48,0.95,4,-7.14,Medium,424994,48,72,88
+C0563,Healthcare,Medium,Africa,Low,68,Centralized,23,Prescriptive,Yes,76,37,-0.61,1,5.59,High,1752875,12,65,62
+C0564,Technology,Medium,US,Medium,46,Hybrid,70,AutoML,Partial,100,32,-0.31,0,19.66,High,6987292,23,99,67
+C0565,Finance,Small,Europe,Low,88,Hybrid,80,Predictive,Yes,77,96,-0.28,2,5.46,High,4199285,34,70,53
+C0566,Healthcare,Medium,US,High,42,Hybrid,55,AutoML,Partial,33,46,-0.98,8,3.21,Low,7421818,38,53,53
+C0567,Manufacturing,Small,Middle East,Medium,59,Decentralized,41,Predictive,Yes,39,43,0.68,0,13.81,Medium,7857604,23,82,59
+C0568,Telecom,Medium,Africa,Low,59,Decentralized,24,Predictive,No,49,38,-0.94,3,24.89,Low,1828650,53,96,52
+C0569,Retail,Medium,India,Low,92,Hybrid,53,Predictive,Yes,38,91,0.88,7,-8.1,High,7457293,25,63,66
+C0570,Manufacturing,Small,India,High,69,Centralized,26,Prescriptive,Partial,72,50,0.78,7,5.42,Low,2849045,4,68,99
+C0571,Telecom,Small,Europe,High,74,Hybrid,50,Descriptive,Yes,75,66,0.07,9,-3.67,Medium,8342005,30,54,74
+C0572,Technology,Small,Asia-Pacific,High,74,Hybrid,63,Predictive,No,96,40,0.09,10,17.81,Medium,9607706,30,85,84
+C0573,Manufacturing,Medium,Middle East,Medium,88,Centralized,53,Prescriptive,Yes,42,49,0.31,10,-5.77,High,6634016,13,80,100
+C0574,Education,Medium,Europe,Low,78,Hybrid,14,Predictive,Partial,81,64,-0.23,7,16.59,High,4718710,42,94,95
+C0575,Retail,Large,Asia-Pacific,High,66,Centralized,36,Descriptive,Partial,52,82,0.29,9,1.45,Low,1699478,49,67,41
+C0576,Telecom,Small,US,Medium,65,Decentralized,96,Predictive,No,37,76,-0.91,7,-2.04,High,9580750,14,93,80
+C0577,Telecom,Medium,Middle East,Medium,53,Decentralized,87,Prescriptive,Partial,92,81,-0.89,3,27.45,Low,6227792,56,80,84
+C0578,Telecom,Medium,US,Medium,56,Centralized,88,Descriptive,Yes,52,37,-0.09,7,-9.26,Medium,7933679,47,79,79
+C0579,Technology,Small,Africa,High,57,Decentralized,52,Prescriptive,Yes,51,33,0.1,8,7.51,Medium,4646218,8,70,87
+C0580,Manufacturing,Large,Middle East,High,84,Decentralized,40,Descriptive,Yes,80,56,0.78,6,-9.13,Medium,5494344,55,96,63
+C0581,Technology,Small,Asia-Pacific,Low,91,Centralized,26,Descriptive,Partial,73,73,-0.79,1,9.34,Medium,6041303,24,79,68
+C0582,Finance,Large,Africa,Low,68,Decentralized,92,AutoML,Yes,36,69,0.65,8,10.04,Medium,5201300,18,90,42
+C0583,Finance,Medium,India,High,59,Hybrid,63,AutoML,Yes,38,76,-0.58,10,2.87,Low,3312983,35,53,84
+C0584,Manufacturing,Large,Asia-Pacific,Medium,92,Hybrid,71,AutoML,Yes,89,73,-0.21,7,-4.71,Medium,7957184,25,54,43
+C0585,Education,Medium,Europe,Medium,66,Centralized,96,Descriptive,No,53,77,-0.37,4,5.06,Low,9524874,17,90,89
+C0586,Technology,Small,India,Medium,57,Decentralized,41,Predictive,Partial,44,81,-0.2,2,16.89,Medium,3626758,32,94,41
+C0587,Retail,Small,India,Low,43,Hybrid,49,Prescriptive,Partial,87,97,-0.7,6,21.3,Low,3882733,56,59,59
+C0588,Telecom,Small,Europe,Medium,40,Hybrid,22,Prescriptive,Partial,93,40,0.01,1,11.23,Low,790174,24,76,93
+C0589,Telecom,Large,Middle East,Low,89,Decentralized,93,Prescriptive,No,93,33,0.6,2,13.59,Low,253811,7,65,92
+C0590,Manufacturing,Medium,India,Low,40,Decentralized,44,AutoML,Partial,30,77,-0.12,8,-1.98,High,1679494,13,79,54
+C0591,Education,Small,Asia-Pacific,Medium,97,Hybrid,14,Descriptive,No,35,55,-0.02,3,1.49,Low,4423547,27,62,88
+C0592,Finance,Small,Africa,Medium,65,Hybrid,82,AutoML,No,80,68,0.7,3,-3.52,Low,5812637,48,85,71
+C0593,Finance,Medium,India,High,84,Centralized,38,Predictive,Partial,99,87,0.41,2,-0.03,Medium,7095158,5,70,100
+C0594,Telecom,Small,Asia-Pacific,High,59,Centralized,79,Descriptive,Yes,26,48,-0.02,4,-1.0,Low,6306878,36,94,81
+C0595,Manufacturing,Medium,US,Medium,91,Hybrid,34,Prescriptive,Yes,35,87,-0.48,2,10.78,Low,5607260,26,89,40
+C0596,Technology,Medium,Asia-Pacific,Low,62,Centralized,31,AutoML,Partial,35,57,0.77,8,12.51,High,580553,42,94,77
+C0597,Finance,Medium,Africa,Low,49,Hybrid,75,AutoML,Partial,59,95,0.15,2,27.8,Medium,5813215,45,64,74
+C0598,Technology,Medium,Asia-Pacific,Low,98,Hybrid,54,Predictive,No,31,39,-0.56,1,-2.18,High,3845627,31,69,90
+C0599,Education,Medium,Europe,Low,50,Centralized,78,Predictive,Partial,54,87,-0.46,4,15.67,High,1301782,10,69,46
+C0600,Finance,Large,Africa,Low,80,Centralized,100,AutoML,No,40,43,0.61,5,22.69,High,2116799,46,94,84
+C0601,Finance,Small,Middle East,High,80,Decentralized,98,Predictive,Partial,69,44,-0.91,0,12.41,Low,8885318,26,54,52
+C0602,Healthcare,Large,US,Medium,44,Decentralized,81,Prescriptive,Yes,62,62,0.98,10,0.2,High,1780934,22,81,88
+C0603,Finance,Small,Europe,High,97,Decentralized,10,Predictive,Yes,36,46,-0.74,5,0.5,High,5384306,12,55,40
+C0604,Retail,Large,Middle East,Low,40,Hybrid,93,Predictive,Partial,51,53,0.59,9,-8.43,Medium,1506098,32,79,53
+C0605,Manufacturing,Medium,Asia-Pacific,Low,56,Centralized,53,AutoML,No,60,59,-0.21,2,2.22,Medium,3338685,27,75,68
+C0606,Manufacturing,Small,Africa,Low,61,Hybrid,96,AutoML,Yes,25,91,-0.02,3,19.78,Medium,4120675,33,86,97
+C0607,Technology,Small,US,Low,73,Centralized,84,Descriptive,No,46,42,0.76,5,-8.1,Medium,8535983,53,62,42
+C0608,Education,Large,Europe,Medium,95,Hybrid,48,Descriptive,Partial,39,91,-0.17,7,-1.23,High,1869941,52,78,85
+C0609,Finance,Large,Middle East,Low,84,Decentralized,63,AutoML,Partial,44,76,0.07,8,18.25,Medium,3999244,20,54,63
+C0610,Retail,Small,Middle East,Medium,80,Decentralized,97,Predictive,Yes,85,45,-0.9,5,21.31,Low,3547319,39,74,40
+C0611,Technology,Large,US,Low,68,Decentralized,84,Predictive,Partial,28,95,-1.0,6,8.21,High,2239465,41,62,87
+C0612,Healthcare,Large,Asia-Pacific,Medium,43,Hybrid,38,Descriptive,Yes,72,72,-0.51,4,17.92,Medium,8518902,40,73,49
+C0613,Technology,Large,US,High,44,Centralized,63,Descriptive,No,80,37,0.36,8,5.52,High,7975651,59,80,52
+C0614,Technology,Medium,Middle East,Low,50,Centralized,99,Descriptive,Yes,57,32,-0.76,3,-3.6,Medium,2298753,13,69,75
+C0615,Finance,Medium,India,Medium,95,Decentralized,25,Prescriptive,Yes,22,41,-0.77,9,5.93,High,433829,14,57,48
+C0616,Healthcare,Large,Europe,High,90,Decentralized,29,Prescriptive,No,89,45,-0.18,10,13.2,Medium,7486949,44,58,53
+C0617,Technology,Large,US,Low,60,Decentralized,55,Descriptive,Yes,74,88,0.3,5,27.92,Low,9981316,40,70,75
+C0618,Retail,Medium,Middle East,Low,74,Decentralized,76,Predictive,Yes,20,78,0.42,4,-7.25,Medium,6634532,53,100,49
+C0619,Retail,Medium,Asia-Pacific,Low,51,Centralized,74,Descriptive,Partial,89,92,-0.64,0,10.3,High,5556932,22,69,79
+C0620,Manufacturing,Small,Middle East,Medium,65,Hybrid,67,Prescriptive,No,64,91,-0.84,4,3.16,High,1072762,18,64,62
+C0621,Healthcare,Small,Asia-Pacific,Medium,90,Hybrid,62,Predictive,Yes,66,78,0.88,4,10.33,Low,6848161,48,75,74
+C0622,Healthcare,Medium,US,High,58,Hybrid,10,Prescriptive,No,98,80,-0.48,8,-9.04,High,604700,29,91,94
+C0623,Manufacturing,Large,Asia-Pacific,Medium,84,Hybrid,90,Predictive,No,45,62,0.71,0,2.52,Low,8260174,43,60,46
+C0624,Technology,Large,Africa,Medium,99,Decentralized,75,Prescriptive,Yes,33,59,0.73,4,22.79,High,4498232,16,86,81
+C0625,Healthcare,Large,Africa,Low,46,Decentralized,38,Predictive,Partial,73,88,0.55,6,12.16,High,9699288,46,90,74
+C0626,Retail,Large,Africa,Low,86,Decentralized,93,Predictive,No,90,44,-0.66,10,8.02,Low,901590,35,60,41
+C0627,Retail,Small,India,Low,94,Hybrid,79,Predictive,Yes,65,52,0.64,5,1.42,High,1260280,53,76,54
+C0628,Finance,Medium,US,Low,46,Decentralized,17,Predictive,No,50,74,0.54,5,1.92,High,82309,34,79,48
+C0629,Healthcare,Large,Middle East,Low,65,Decentralized,38,AutoML,Partial,78,91,0.19,6,5.32,Low,90449,3,68,86
+C0630,Technology,Small,Middle East,Low,79,Centralized,60,Prescriptive,Partial,48,100,-0.33,5,23.42,Medium,6958801,4,83,56
+C0631,Manufacturing,Large,India,Low,44,Centralized,42,Prescriptive,Partial,36,44,-0.47,4,28.69,Low,8143543,54,87,78
+C0632,Manufacturing,Medium,Asia-Pacific,High,60,Decentralized,12,AutoML,Yes,33,75,-0.76,9,7.55,High,2652226,5,72,91
+C0633,Technology,Small,India,High,53,Centralized,69,Predictive,Yes,55,93,0.02,4,5.73,Medium,4843485,10,50,57
+C0634,Education,Medium,Asia-Pacific,High,43,Centralized,44,Predictive,Partial,77,75,0.17,8,23.86,Medium,1554915,52,52,54
+C0635,Telecom,Medium,Asia-Pacific,High,62,Decentralized,78,Prescriptive,Yes,43,85,-0.28,7,7.08,Medium,4918073,29,52,57
+C0636,Finance,Small,Europe,Low,81,Decentralized,100,AutoML,Partial,82,73,-0.05,9,12.08,Low,7184855,32,77,63
+C0637,Manufacturing,Small,Middle East,High,59,Decentralized,85,Predictive,Yes,44,58,-0.27,3,-0.76,Medium,6264846,31,63,62
+C0638,Healthcare,Small,Africa,Low,54,Decentralized,93,Predictive,Partial,78,91,0.28,3,19.74,Medium,3394301,2,79,51
+C0639,Finance,Small,Asia-Pacific,High,89,Hybrid,29,Predictive,No,51,81,0.8,9,11.28,Medium,6578148,12,54,62
+C0640,Healthcare,Small,Europe,Medium,91,Hybrid,82,Descriptive,Partial,37,83,-0.67,4,22.36,High,7224742,27,98,60
+C0641,Education,Small,Middle East,High,84,Decentralized,48,AutoML,Partial,56,86,-0.24,2,21.23,Low,9975127,5,64,65
+C0642,Retail,Small,Africa,High,68,Centralized,13,Predictive,Yes,45,95,-0.72,7,-1.4,Low,4618798,37,87,47
+C0643,Finance,Large,Asia-Pacific,Low,47,Decentralized,28,Descriptive,Yes,28,51,0.25,6,18.63,High,1951412,27,63,69
+C0644,Manufacturing,Medium,Asia-Pacific,High,80,Decentralized,100,AutoML,Yes,83,49,0.46,4,22.0,Medium,166751,23,63,73
+C0645,Finance,Small,India,Medium,87,Centralized,54,Predictive,Yes,91,62,0.86,9,3.84,High,8344682,33,98,41
+C0646,Finance,Large,India,Low,58,Hybrid,52,Prescriptive,Yes,39,54,-0.44,2,-3.1,High,9777633,4,57,44
+C0647,Finance,Large,Middle East,Low,87,Decentralized,22,Descriptive,Yes,73,75,0.9,4,-9.89,Medium,3250034,59,57,70
+C0648,Telecom,Large,Africa,High,78,Decentralized,22,Descriptive,No,49,86,-0.87,2,8.04,Medium,2366400,21,68,72
+C0649,Finance,Medium,Asia-Pacific,Low,85,Hybrid,69,Predictive,Partial,72,34,0.21,9,4.1,Low,1219715,24,81,93
+C0650,Healthcare,Small,Middle East,Low,67,Hybrid,66,Predictive,Partial,82,84,-0.89,4,12.2,Medium,7932638,44,80,43
+C0651,Retail,Large,Middle East,Low,85,Centralized,95,Descriptive,Partial,30,90,0.79,0,-2.48,High,7534350,31,78,45
+C0652,Education,Medium,US,Low,96,Hybrid,61,Prescriptive,No,50,37,0.06,5,24.39,High,3098500,44,90,62
+C0653,Technology,Medium,India,Low,66,Hybrid,62,Prescriptive,Partial,68,45,0.34,9,0.31,Medium,7673760,48,60,84
+C0654,Finance,Medium,Africa,Low,43,Hybrid,95,AutoML,No,38,77,0.66,3,-0.94,Low,5832337,24,94,58
+C0655,Manufacturing,Large,Asia-Pacific,Medium,97,Centralized,52,Predictive,No,31,90,-0.7,3,9.23,High,5318848,49,62,82
+C0656,Finance,Small,Middle East,High,54,Hybrid,92,Prescriptive,No,34,44,-0.92,7,9.95,Medium,4119617,53,76,84
+C0657,Manufacturing,Large,Asia-Pacific,Medium,74,Hybrid,81,AutoML,Partial,50,94,0.76,1,-1.4,Low,6546286,10,68,47
+C0658,Healthcare,Large,US,Low,76,Centralized,81,Prescriptive,No,62,51,-0.37,3,0.87,Low,6201996,49,75,78
+C0659,Manufacturing,Small,Africa,Low,40,Hybrid,51,Predictive,Partial,56,32,-0.74,1,-3.21,High,3835407,49,100,52
+C0660,Technology,Small,Middle East,High,42,Hybrid,99,AutoML,Partial,98,83,-0.06,0,18.74,High,5355377,50,86,40
+C0661,Retail,Small,Asia-Pacific,Medium,86,Centralized,35,AutoML,Yes,48,43,0.2,9,20.8,Low,5129990,2,97,45
+C0662,Manufacturing,Medium,India,High,63,Decentralized,32,AutoML,Yes,45,65,-0.94,2,8.49,Low,5885522,31,58,46
+C0663,Manufacturing,Small,US,Medium,66,Centralized,52,Prescriptive,No,21,96,-0.45,7,18.56,Low,2183520,25,77,87
+C0664,Retail,Large,Africa,Low,79,Hybrid,86,Predictive,No,34,39,-0.93,5,19.44,Medium,4288413,4,81,66
+C0665,Technology,Small,US,High,100,Hybrid,37,AutoML,Partial,23,78,-0.16,6,-4.47,High,8388125,51,52,54
+C0666,Finance,Large,India,High,75,Hybrid,18,Descriptive,No,69,94,0.79,1,28.65,Low,1287293,11,100,91
+C0667,Manufacturing,Medium,Africa,Low,73,Centralized,29,Predictive,No,57,86,0.97,5,22.84,High,9413109,17,81,73
+C0668,Retail,Large,US,High,68,Hybrid,65,Descriptive,Partial,42,56,0.27,7,-1.82,High,8466034,44,54,97
+C0669,Healthcare,Large,Europe,Medium,63,Hybrid,92,Descriptive,No,78,34,-0.68,7,-2.55,High,954064,2,57,96
+C0670,Retail,Small,India,Medium,63,Centralized,48,AutoML,No,94,100,0.81,3,-4.97,Low,5856191,6,63,62
+C0671,Healthcare,Small,India,Medium,81,Decentralized,60,AutoML,Partial,47,86,0.03,5,-4.46,Medium,7842515,9,52,87
+C0672,Technology,Large,India,Medium,43,Decentralized,21,Prescriptive,Partial,85,44,-0.69,4,19.93,Low,2660320,5,73,88
+C0673,Finance,Small,Europe,Low,42,Hybrid,88,Prescriptive,Yes,27,59,0.84,8,8.79,High,9415337,20,62,63
+C0674,Retail,Medium,Europe,High,73,Centralized,64,Prescriptive,Partial,48,49,0.51,7,21.32,Low,721367,29,92,54
+C0675,Education,Medium,Asia-Pacific,Medium,96,Hybrid,87,Predictive,Yes,30,66,0.46,1,19.85,Low,5896945,21,78,74
+C0676,Education,Small,Middle East,Low,88,Centralized,20,Prescriptive,No,37,32,0.42,6,14.18,High,2061153,9,57,43
+C0677,Telecom,Medium,US,High,62,Centralized,35,Descriptive,Partial,74,70,-0.6,6,17.45,High,3547914,28,100,83
+C0678,Manufacturing,Small,Asia-Pacific,High,92,Decentralized,51,Prescriptive,Partial,69,68,-0.58,10,-9.27,Low,5113834,55,91,76
+C0679,Technology,Large,US,Low,95,Decentralized,36,AutoML,Partial,33,55,0.38,0,2.47,Low,506185,8,80,56
+C0680,Retail,Large,Middle East,Low,91,Centralized,20,Prescriptive,No,93,31,-0.56,0,15.51,Low,8287415,31,75,70
+C0681,Education,Medium,Europe,Medium,62,Hybrid,47,Predictive,Yes,28,52,-0.12,3,-9.63,Low,9528475,20,67,77
+C0682,Manufacturing,Small,Middle East,High,84,Decentralized,52,Predictive,No,30,52,0.56,4,-8.68,Medium,1137381,27,67,49
+C0683,Education,Small,Europe,High,44,Hybrid,28,Descriptive,No,82,45,0.57,3,24.08,Low,1197407,8,56,93
+C0684,Retail,Medium,Middle East,Low,70,Decentralized,73,Predictive,Partial,95,38,-0.09,6,17.36,Medium,2296667,54,97,89
+C0685,Healthcare,Large,Asia-Pacific,High,92,Decentralized,15,Prescriptive,Yes,86,42,0.58,2,0.61,High,59290,21,87,66
+C0686,Retail,Medium,Africa,Medium,80,Hybrid,55,AutoML,No,72,57,0.68,6,17.52,Medium,5638658,28,97,81
+C0687,Telecom,Large,Asia-Pacific,High,96,Decentralized,51,Predictive,Partial,58,56,0.31,7,21.7,High,9268330,23,65,45
+C0688,Retail,Small,US,Low,100,Decentralized,74,Descriptive,No,97,80,-0.54,5,2.27,Medium,4329490,6,82,95
+C0689,Retail,Large,Asia-Pacific,Low,96,Hybrid,81,Prescriptive,No,75,93,-0.45,5,-8.56,High,1900123,3,100,45
+C0690,Telecom,Medium,India,Medium,99,Decentralized,68,Descriptive,Partial,47,81,-0.37,7,27.31,Low,1628013,5,52,91
+C0691,Technology,Small,US,Medium,93,Decentralized,61,Predictive,Partial,94,67,-0.77,7,3.81,Medium,6621316,9,87,54
+C0692,Retail,Medium,Middle East,High,45,Decentralized,56,Predictive,Yes,58,94,-0.45,6,-5.74,Medium,7790068,7,53,43
+C0693,Telecom,Medium,US,High,76,Hybrid,16,Descriptive,No,44,47,-0.58,5,9.67,High,9223696,4,85,96
+C0694,Manufacturing,Large,Africa,Low,96,Centralized,20,Prescriptive,Partial,40,92,-0.09,5,20.74,High,7240953,39,53,87
+C0695,Healthcare,Medium,Europe,Medium,49,Hybrid,70,Predictive,Partial,29,80,0.82,9,-1.13,Medium,2058880,5,91,93
+C0696,Healthcare,Large,Middle East,Medium,79,Centralized,77,AutoML,Yes,62,38,-0.79,10,0.78,High,1915407,11,58,95
+C0697,Retail,Small,US,Medium,46,Decentralized,34,Predictive,Yes,34,42,0.44,5,-0.29,Low,7509406,15,89,79
+C0698,Technology,Large,Middle East,High,78,Centralized,21,Prescriptive,Partial,67,69,0.37,7,29.67,Medium,5598122,34,100,46
+C0699,Technology,Small,Middle East,Medium,77,Hybrid,35,Predictive,Yes,40,84,-0.81,0,-2.1,Low,2524427,13,66,90
+C0700,Manufacturing,Large,Middle East,Low,60,Hybrid,21,Descriptive,Partial,79,72,0.85,4,13.02,Medium,5059486,54,66,97
+C0701,Retail,Medium,Europe,Low,100,Decentralized,52,Predictive,No,69,73,0.14,2,27.01,Low,3418410,48,82,88
+C0702,Healthcare,Large,Asia-Pacific,High,59,Centralized,60,Predictive,Yes,42,97,-0.27,7,-4.12,Medium,984814,7,69,92
+C0703,Technology,Large,Middle East,High,42,Decentralized,46,Prescriptive,No,32,62,0.51,10,28.83,High,4982206,40,63,84
+C0704,Retail,Small,India,Medium,90,Decentralized,55,Descriptive,No,88,53,-0.49,5,27.9,Medium,8745097,6,71,86
+C0705,Education,Medium,Africa,High,61,Hybrid,62,Prescriptive,No,23,65,0.39,1,25.38,Low,6456377,56,76,65
+C0706,Technology,Large,Europe,Low,86,Centralized,97,Predictive,Partial,97,39,-0.92,6,-1.42,Medium,7966163,39,92,97
+C0707,Telecom,Medium,US,Medium,43,Centralized,89,AutoML,No,91,49,0.68,6,15.36,Low,2812734,50,52,70
+C0708,Education,Large,Europe,Low,67,Centralized,22,Predictive,No,28,41,-0.1,4,20.44,Low,4202554,30,73,41
+C0709,Technology,Large,US,Medium,51,Centralized,98,Prescriptive,No,54,91,0.27,7,29.44,Low,3096165,22,79,67
+C0710,Healthcare,Medium,Europe,High,77,Decentralized,63,AutoML,Partial,40,47,-0.56,4,-2.78,High,8240798,25,57,81
+C0711,Finance,Large,US,Medium,90,Decentralized,66,Prescriptive,No,77,92,0.35,0,20.64,Medium,6542197,28,71,52
+C0712,Education,Medium,Middle East,Medium,75,Hybrid,13,Prescriptive,No,37,54,0.54,8,3.55,Low,7366640,54,74,57
+C0713,Manufacturing,Large,Asia-Pacific,Low,86,Decentralized,84,Descriptive,Yes,91,41,-0.05,3,-2.97,High,3951359,20,59,69
+C0714,Manufacturing,Small,US,Low,80,Decentralized,58,AutoML,Partial,100,50,0.24,1,6.86,Low,7905220,39,98,94
+C0715,Healthcare,Medium,US,Medium,44,Hybrid,16,Predictive,No,62,54,-0.09,3,21.75,Medium,1038807,3,78,50
+C0716,Technology,Large,India,High,52,Hybrid,20,Prescriptive,Yes,25,40,0.79,8,8.59,High,5831801,5,89,52
+C0717,Retail,Large,US,High,62,Hybrid,63,Predictive,Partial,97,93,-0.0,1,11.5,Low,2733684,1,50,90
+C0718,Technology,Small,India,Low,97,Decentralized,96,Descriptive,Partial,86,79,0.68,3,29.81,Low,3939200,15,70,100
+C0719,Healthcare,Medium,Africa,High,89,Decentralized,54,Descriptive,Partial,31,91,0.6,1,5.96,Low,9139069,26,88,63
+C0720,Manufacturing,Large,Middle East,Low,69,Hybrid,32,AutoML,Partial,31,78,-0.18,4,14.62,Medium,750066,3,73,96
+C0721,Technology,Small,India,High,76,Hybrid,37,Descriptive,Partial,85,43,-0.54,2,4.61,High,9171052,40,58,68
+C0722,Manufacturing,Large,Asia-Pacific,Medium,64,Hybrid,66,Descriptive,Partial,21,30,-0.19,9,5.71,High,4259419,57,93,95
+C0723,Education,Medium,Middle East,Low,87,Decentralized,35,Predictive,No,34,54,0.65,1,17.83,High,5368259,41,75,93
+C0724,Retail,Large,India,Low,66,Decentralized,34,Descriptive,No,42,88,-0.54,8,27.52,Low,5526433,47,58,44
+C0725,Education,Large,Middle East,Medium,90,Centralized,63,Descriptive,No,48,98,0.05,4,11.69,High,614267,42,69,74
+C0726,Manufacturing,Large,Middle East,Low,53,Decentralized,38,Prescriptive,No,100,34,0.61,9,20.74,Low,2843153,34,84,58
+C0727,Manufacturing,Large,Middle East,High,96,Decentralized,92,Descriptive,Yes,26,48,-0.29,4,-6.43,Medium,3972874,52,85,94
+C0728,Finance,Small,Africa,High,87,Decentralized,45,Prescriptive,No,47,52,0.28,0,-1.55,High,6872160,5,91,52
+C0729,Finance,Small,Asia-Pacific,Low,98,Hybrid,23,Descriptive,Partial,33,38,-0.51,5,10.09,Low,7269593,31,85,44
+C0730,Education,Medium,Europe,High,86,Decentralized,87,Descriptive,No,63,79,-0.78,6,-9.2,High,4900258,51,58,83
+C0731,Telecom,Small,Europe,Low,93,Hybrid,44,AutoML,No,49,45,0.59,0,0.11,High,8846217,13,71,53
+C0732,Education,Small,India,Medium,75,Centralized,39,AutoML,Partial,100,62,-0.8,8,10.7,Medium,4672900,43,50,77
+C0733,Finance,Medium,Middle East,Low,78,Centralized,26,Prescriptive,No,51,31,-0.46,7,-9.4,High,9139024,1,54,61
+C0734,Manufacturing,Small,India,Medium,55,Hybrid,76,Descriptive,No,89,43,0.71,7,0.58,Medium,4201511,22,58,48
+C0735,Healthcare,Small,Africa,High,95,Hybrid,89,Predictive,No,25,30,-0.31,6,10.56,High,3588236,15,86,88
+C0736,Education,Medium,Africa,Medium,61,Hybrid,39,AutoML,Yes,46,87,0.95,4,12.93,High,6176819,26,87,79
+C0737,Manufacturing,Medium,US,High,60,Decentralized,54,Predictive,No,43,45,0.96,2,27.03,High,2132264,18,68,65
+C0738,Healthcare,Medium,Africa,Low,93,Centralized,88,AutoML,Partial,53,76,-0.46,8,15.81,High,4886835,48,57,84
+C0739,Healthcare,Large,US,High,60,Hybrid,98,AutoML,Partial,59,73,-0.92,6,6.59,High,6968814,9,91,100
+C0740,Finance,Large,Asia-Pacific,Low,47,Decentralized,60,Descriptive,No,66,43,0.41,10,27.21,High,1658990,1,92,44
+C0741,Education,Medium,India,Low,88,Centralized,56,AutoML,No,98,53,-0.1,9,21.4,Medium,2751822,43,81,68
+C0742,Technology,Medium,Asia-Pacific,Medium,55,Decentralized,62,Predictive,No,94,84,-0.8,9,-2.0,Medium,3418513,9,62,93
+C0743,Retail,Medium,Africa,Medium,98,Centralized,73,AutoML,Partial,43,44,0.42,7,-4.77,Low,2689668,23,69,61
+C0744,Finance,Large,Asia-Pacific,Medium,94,Decentralized,47,Prescriptive,Partial,84,63,-0.94,5,17.03,High,7883547,43,85,88
+C0745,Finance,Large,Asia-Pacific,Medium,70,Centralized,73,Descriptive,Yes,37,31,0.74,10,12.4,Medium,836526,45,92,42
+C0746,Technology,Small,Asia-Pacific,High,81,Centralized,96,Descriptive,Yes,63,56,-0.72,4,21.59,High,9987388,58,93,67
+C0747,Retail,Small,Africa,High,49,Decentralized,98,Prescriptive,Yes,95,52,-0.75,7,19.55,High,5703526,2,86,77
+C0748,Manufacturing,Medium,Middle East,High,71,Hybrid,16,Prescriptive,Partial,76,97,-0.65,2,15.01,Medium,7444518,14,79,53
+C0749,Telecom,Large,Asia-Pacific,Low,98,Centralized,31,Prescriptive,Yes,47,43,0.92,6,29.46,High,8266974,38,59,86
+C0750,Education,Large,US,High,73,Hybrid,90,AutoML,No,90,92,0.39,1,11.34,Medium,2128850,40,80,53
+C0751,Telecom,Large,Africa,High,48,Decentralized,91,Descriptive,No,42,94,0.6,2,-5.48,Medium,1426807,18,74,82
+C0752,Manufacturing,Medium,Asia-Pacific,High,56,Hybrid,50,Prescriptive,Partial,53,97,-0.2,1,23.13,Low,7791734,16,78,50
+C0753,Finance,Small,Middle East,Medium,50,Hybrid,83,AutoML,Yes,30,92,-0.33,4,0.07,Low,9890145,53,73,48
+C0754,Retail,Medium,Africa,High,71,Hybrid,19,Prescriptive,No,54,93,-0.53,6,21.09,Low,1809268,29,88,77
+C0755,Finance,Small,Europe,Low,49,Hybrid,66,Predictive,Partial,61,61,-0.04,10,28.28,Low,2644489,44,70,86
+C0756,Healthcare,Small,Middle East,Medium,61,Hybrid,16,Predictive,Yes,47,42,0.1,9,17.87,High,2070612,11,90,83
+C0757,Finance,Medium,US,Low,96,Centralized,59,Descriptive,No,97,95,0.26,10,13.84,High,1874998,6,58,100
+C0758,Finance,Small,Asia-Pacific,High,56,Centralized,100,AutoML,Yes,43,48,-0.49,10,8.42,Low,8970966,3,91,45
+C0759,Manufacturing,Small,Europe,Medium,43,Centralized,61,Predictive,Partial,27,53,0.9,10,4.58,Medium,6867064,14,91,40
+C0760,Manufacturing,Large,Europe,Low,87,Decentralized,42,Predictive,Yes,72,40,-0.66,9,4.12,Medium,925475,2,51,64
+C0761,Manufacturing,Small,Africa,High,91,Hybrid,10,AutoML,Partial,91,88,0.93,0,15.45,Medium,351065,32,53,55
+C0762,Telecom,Medium,Europe,Low,86,Centralized,62,Prescriptive,Yes,23,44,-0.97,9,20.05,Medium,7929909,31,57,91
+C0763,Healthcare,Medium,US,Low,64,Decentralized,69,AutoML,No,24,39,-0.04,8,17.14,High,4829432,11,81,54
+C0764,Manufacturing,Small,US,Low,98,Centralized,43,Prescriptive,Partial,68,70,-0.33,0,-2.06,Medium,8013024,22,63,73
+C0765,Retail,Large,India,High,60,Centralized,13,Predictive,Partial,49,56,-0.1,0,9.76,Medium,8334268,3,98,56
+C0766,Telecom,Large,US,High,76,Hybrid,26,Predictive,Partial,91,89,0.14,9,21.67,Low,3030631,50,62,42
+C0767,Technology,Small,Middle East,Low,77,Decentralized,13,Predictive,Yes,82,81,-0.13,7,9.03,Medium,3081402,31,70,42
+C0768,Retail,Small,Europe,Medium,88,Hybrid,52,Descriptive,Yes,66,57,-0.17,5,11.46,High,3486386,33,73,76
+C0769,Education,Medium,US,Medium,40,Hybrid,99,Descriptive,No,45,94,0.47,5,20.85,Medium,245961,24,99,56
+C0770,Education,Small,Africa,High,64,Centralized,13,Descriptive,Partial,76,46,0.37,8,16.45,Medium,7787099,1,67,94
+C0771,Retail,Large,India,High,90,Hybrid,10,AutoML,Partial,56,73,0.67,3,6.37,High,3796050,44,94,100
+C0772,Manufacturing,Small,Europe,High,75,Decentralized,80,Predictive,Yes,26,39,-0.5,7,25.82,Low,4176030,15,89,88
+C0773,Technology,Medium,India,High,56,Hybrid,59,Predictive,Yes,59,92,0.22,3,-3.5,High,3556260,37,75,91
+C0774,Technology,Medium,Europe,High,80,Hybrid,82,AutoML,No,58,76,0.17,1,29.82,Low,9943385,27,81,77
+C0775,Telecom,Medium,Africa,Medium,63,Hybrid,70,Descriptive,No,81,67,-0.26,10,-5.25,Medium,2191997,38,93,40
+C0776,Technology,Medium,India,High,41,Centralized,44,AutoML,Yes,97,99,-0.03,7,-9.4,Low,4129162,48,82,46
+C0777,Education,Medium,Asia-Pacific,Low,79,Decentralized,17,Descriptive,Partial,72,82,-0.37,6,25.6,Low,6454892,27,80,65
+C0778,Healthcare,Small,Middle East,Low,54,Centralized,33,Predictive,No,23,73,-0.72,3,-0.2,Low,7628230,44,67,86
+C0779,Manufacturing,Small,Middle East,Medium,71,Centralized,92,Prescriptive,Yes,44,83,-0.57,8,19.19,Medium,3479031,12,84,78
+C0780,Technology,Small,Europe,Low,78,Centralized,45,Descriptive,Yes,26,49,-0.79,8,22.44,Low,7938323,3,61,58
+C0781,Telecom,Small,Asia-Pacific,Medium,98,Centralized,59,Predictive,Partial,47,60,0.37,7,24.36,Low,2777162,30,100,91
+C0782,Education,Medium,India,Medium,45,Centralized,52,Predictive,Yes,88,36,0.32,0,29.66,Medium,6044299,32,74,93
+C0783,Healthcare,Large,Asia-Pacific,Low,40,Decentralized,36,Prescriptive,Yes,86,87,0.9,6,1.76,High,7971275,23,94,69
+C0784,Finance,Small,Asia-Pacific,High,86,Hybrid,41,Predictive,No,39,39,0.46,4,18.41,High,7370812,2,80,82
+C0785,Finance,Large,India,Low,62,Centralized,87,Predictive,Yes,30,39,-0.9,6,-5.38,High,8710592,7,59,94
+C0786,Healthcare,Small,Africa,Low,97,Centralized,27,Descriptive,Yes,86,68,0.77,8,6.27,Medium,4740136,34,96,53
+C0787,Education,Small,Asia-Pacific,Medium,78,Decentralized,37,Descriptive,No,26,57,0.73,1,23.92,Medium,8741520,32,83,52
+C0788,Telecom,Large,Asia-Pacific,Low,100,Decentralized,38,Prescriptive,Partial,42,59,-0.11,10,4.71,High,857359,53,100,59
+C0789,Healthcare,Medium,Africa,Medium,96,Hybrid,25,Prescriptive,Partial,80,66,0.17,3,13.64,Low,1983630,39,52,65
+C0790,Manufacturing,Small,Asia-Pacific,High,56,Decentralized,56,Predictive,No,90,96,0.95,3,10.15,High,3211057,32,95,66
+C0791,Manufacturing,Small,Asia-Pacific,High,73,Hybrid,68,Descriptive,No,53,72,0.06,1,15.84,Medium,1114367,43,88,64
+C0792,Finance,Small,Asia-Pacific,High,98,Centralized,40,Prescriptive,Partial,38,81,0.81,2,28.92,Low,9878213,43,57,48
+C0793,Technology,Large,Middle East,Low,80,Centralized,13,Prescriptive,Partial,77,85,-0.83,10,-7.77,Low,2816884,14,81,80
+C0794,Telecom,Medium,US,Medium,68,Hybrid,46,AutoML,Partial,28,97,-0.62,7,12.96,Medium,5276047,3,92,87
+C0795,Finance,Large,Africa,High,48,Decentralized,26,Prescriptive,Partial,67,38,-0.12,8,24.52,Low,8810306,46,78,51
+C0796,Technology,Large,Asia-Pacific,Medium,52,Hybrid,48,Predictive,Partial,60,52,0.17,5,9.26,High,5379953,32,71,49
+C0797,Technology,Medium,Middle East,Medium,45,Decentralized,57,Descriptive,No,67,92,0.63,9,-6.86,Medium,1149984,43,69,45
+C0798,Manufacturing,Large,Africa,High,45,Centralized,55,Prescriptive,Yes,64,90,0.98,1,12.42,Medium,9633490,36,55,89
+C0799,Education,Medium,Europe,High,59,Decentralized,99,AutoML,Partial,44,69,-0.22,1,3.28,Medium,6480060,17,92,73
+C0800,Retail,Small,Europe,Medium,91,Hybrid,57,Descriptive,Partial,97,73,-0.91,6,-3.8,Medium,2444712,48,98,98
+C0801,Education,Medium,Asia-Pacific,High,92,Hybrid,48,Prescriptive,Yes,44,53,0.6,7,23.96,Low,1171015,3,78,91
+C0802,Retail,Small,Middle East,Medium,42,Centralized,13,AutoML,Yes,38,80,0.21,7,10.86,Medium,8981138,57,91,80
+C0803,Healthcare,Large,Middle East,Medium,56,Decentralized,39,Prescriptive,Yes,58,87,-0.6,5,27.33,Medium,9260289,10,66,58
+C0804,Manufacturing,Large,Africa,High,88,Decentralized,39,Descriptive,Yes,98,62,-0.01,9,22.24,Low,7222937,53,80,45
+C0805,Technology,Small,Africa,Low,51,Decentralized,31,Descriptive,Yes,99,45,0.48,7,17.72,Medium,3435375,47,83,41
+C0806,Telecom,Large,Middle East,High,87,Centralized,84,Descriptive,Yes,46,51,0.54,0,-9.8,Low,921510,40,87,54
+C0807,Retail,Medium,Africa,Low,86,Decentralized,75,Predictive,No,93,86,-0.0,8,7.11,Low,6635894,18,86,56
+C0808,Education,Small,Middle East,Medium,84,Hybrid,21,Prescriptive,Yes,82,91,-0.39,0,-2.1,Medium,4641204,3,53,55
+C0809,Technology,Large,US,Medium,94,Decentralized,45,Predictive,Yes,87,100,0.95,2,26.43,High,4661315,39,51,67
+C0810,Retail,Small,Middle East,Low,40,Centralized,27,Descriptive,No,38,99,0.33,8,-3.02,Medium,6858807,10,61,60
+C0811,Retail,Medium,Europe,Medium,56,Decentralized,99,AutoML,Yes,47,59,-0.18,10,1.44,High,4385807,52,84,47
+C0812,Retail,Medium,Africa,Low,42,Decentralized,62,Prescriptive,Partial,97,52,-0.44,4,10.67,Low,7858915,9,55,49
+C0813,Telecom,Large,Middle East,Low,65,Hybrid,80,Predictive,Partial,52,61,0.46,8,0.53,High,401771,46,95,49
+C0814,Manufacturing,Medium,Middle East,Medium,54,Decentralized,10,Prescriptive,Yes,29,86,-0.52,8,-1.61,Medium,4596475,55,57,89
+C0815,Telecom,Small,Africa,Low,75,Hybrid,67,AutoML,No,49,38,-0.66,5,13.96,Medium,9295406,46,70,49
+C0816,Finance,Medium,US,High,71,Hybrid,99,Predictive,Partial,41,60,0.06,10,-6.44,High,8532784,11,95,48
+C0817,Technology,Small,US,High,71,Centralized,96,Descriptive,No,22,100,-0.42,0,-7.67,Medium,8773622,33,84,67
+C0818,Manufacturing,Small,Africa,Medium,43,Hybrid,99,Predictive,Partial,94,38,0.26,9,4.89,High,9234344,36,97,63
+C0819,Manufacturing,Medium,India,Medium,57,Hybrid,15,Prescriptive,Yes,67,42,-0.76,6,18.83,Low,7896431,26,64,58
+C0820,Manufacturing,Large,Africa,Low,88,Centralized,79,Prescriptive,No,21,87,0.31,5,12.19,High,1902040,27,56,72
+C0821,Education,Medium,Africa,Low,58,Hybrid,53,Prescriptive,No,95,32,-0.43,8,6.92,High,8529899,38,64,43
+C0822,Manufacturing,Small,US,Low,82,Centralized,81,Prescriptive,No,73,64,-1.0,6,12.63,High,949321,22,94,95
+C0823,Telecom,Small,US,Low,91,Decentralized,33,Descriptive,Partial,25,50,-0.75,10,4.62,High,7449518,26,55,42
+C0824,Manufacturing,Medium,Africa,High,74,Centralized,95,Predictive,Partial,59,93,0.87,3,27.45,Low,3785568,22,96,81
+C0825,Healthcare,Large,Africa,High,79,Hybrid,28,Descriptive,Partial,21,81,0.73,6,-7.8,Low,2570022,5,66,51
+C0826,Technology,Large,Africa,Medium,53,Centralized,27,Descriptive,Yes,92,63,-0.53,1,16.94,Low,3234972,35,53,57
+C0827,Manufacturing,Small,US,Low,97,Hybrid,39,Descriptive,Partial,21,64,0.56,5,25.65,High,2197849,2,71,62
+C0828,Technology,Small,Africa,Low,72,Decentralized,51,Prescriptive,Yes,93,44,0.22,5,22.16,Low,6205343,35,81,59
+C0829,Healthcare,Large,Africa,Medium,53,Centralized,42,Prescriptive,No,74,35,0.94,1,-2.64,Medium,3984853,9,71,45
+C0830,Healthcare,Medium,Asia-Pacific,Low,73,Decentralized,83,Prescriptive,No,91,61,-0.25,3,1.84,Low,9150719,51,76,92
+C0831,Technology,Small,India,Low,100,Hybrid,21,Predictive,Yes,79,81,0.36,7,18.68,High,7920579,51,95,73
+C0832,Retail,Small,Europe,Low,94,Hybrid,36,AutoML,Partial,25,57,-0.87,7,-6.63,Medium,2791186,49,64,81
+C0833,Finance,Large,India,Low,43,Decentralized,48,Prescriptive,Yes,38,93,-0.21,7,22.47,High,8945707,18,93,41
+C0834,Education,Medium,Asia-Pacific,Low,63,Centralized,18,Predictive,No,46,48,0.93,7,18.76,Medium,5340299,43,100,69
+C0835,Retail,Large,Europe,Medium,98,Centralized,30,Prescriptive,No,20,44,0.08,0,19.18,High,1416825,12,71,48
+C0836,Retail,Medium,Africa,Low,68,Hybrid,85,Prescriptive,Yes,52,35,-0.42,1,-5.99,High,3878471,3,77,66
+C0837,Telecom,Medium,Asia-Pacific,Medium,58,Decentralized,38,Descriptive,Partial,59,67,-0.76,3,18.71,Medium,2170556,18,91,81
+C0838,Education,Medium,Africa,Low,45,Decentralized,42,Descriptive,Partial,51,55,0.41,8,17.19,Low,9954283,56,87,73
+C0839,Education,Small,US,High,96,Centralized,71,Descriptive,Yes,88,80,0.29,2,23.24,Medium,8539573,38,58,79
+C0840,Retail,Large,Middle East,High,72,Centralized,24,Predictive,Yes,36,82,-0.25,5,-8.34,Medium,3776348,7,83,63
+C0841,Manufacturing,Large,Asia-Pacific,High,88,Centralized,11,AutoML,Partial,27,85,0.9,6,-9.08,Medium,3366219,33,85,88
+C0842,Telecom,Medium,US,High,79,Decentralized,61,AutoML,No,76,88,-0.96,7,4.92,Medium,8135968,6,58,56
+C0843,Telecom,Small,Asia-Pacific,Medium,58,Centralized,53,Predictive,Yes,61,99,-0.39,6,-4.05,Medium,8017502,18,64,68
+C0844,Healthcare,Small,Asia-Pacific,Medium,92,Centralized,63,Prescriptive,Partial,28,87,0.84,2,12.34,High,5774174,45,94,75
+C0845,Education,Large,US,Low,40,Hybrid,27,Predictive,Partial,54,42,-0.36,5,26.69,High,3007428,22,69,89
+C0846,Retail,Small,Europe,High,44,Centralized,12,Prescriptive,No,90,72,-0.5,4,5.66,Low,6375598,51,57,51
+C0847,Healthcare,Small,India,Medium,66,Centralized,16,Predictive,No,98,80,0.07,9,23.8,Low,1719090,39,77,70
+C0848,Technology,Medium,Africa,Low,55,Decentralized,52,Predictive,No,72,48,0.65,3,-9.99,Medium,7901347,51,100,88
+C0849,Finance,Small,Asia-Pacific,Low,45,Decentralized,91,Predictive,No,73,50,-0.79,0,-3.26,Low,8939116,9,68,48
+C0850,Telecom,Medium,Africa,Medium,79,Hybrid,47,AutoML,No,44,53,0.89,6,-8.78,Low,1161545,35,65,100
+C0851,Technology,Large,Middle East,High,52,Centralized,46,Descriptive,Yes,86,55,0.59,7,3.13,Medium,8527852,23,60,58
+C0852,Technology,Small,US,Low,87,Hybrid,67,Predictive,Partial,81,74,-0.64,1,26.33,High,3089382,12,91,85
+C0853,Manufacturing,Large,Africa,High,74,Decentralized,42,AutoML,Yes,74,57,0.42,6,-6.12,High,7098369,52,57,85
+C0854,Finance,Large,US,High,58,Hybrid,68,Descriptive,Yes,65,58,-0.23,5,14.26,Low,8632676,24,82,56
+C0855,Technology,Small,Africa,High,51,Decentralized,20,Descriptive,Yes,43,46,-0.2,4,8.06,High,7783359,50,59,41
+C0856,Technology,Small,India,Low,55,Hybrid,77,Predictive,Yes,65,97,0.57,3,27.54,High,707739,40,67,79
+C0857,Finance,Large,India,High,98,Hybrid,91,Prescriptive,Yes,41,73,0.93,1,-5.1,Low,1325421,9,84,44
+C0858,Finance,Small,India,Low,82,Centralized,77,Prescriptive,No,30,90,-0.75,9,-1.52,Medium,6166658,13,92,98
+C0859,Technology,Medium,India,High,49,Hybrid,97,Prescriptive,No,67,97,-0.16,5,-8.82,Low,746480,40,99,78
+C0860,Finance,Medium,India,Low,64,Centralized,31,Predictive,Partial,27,54,-0.04,4,7.36,Low,9767137,54,52,93
+C0861,Technology,Small,India,High,59,Centralized,75,Prescriptive,Yes,58,96,-0.25,1,1.11,Low,5214621,42,89,100
+C0862,Technology,Large,US,Medium,70,Centralized,53,AutoML,Partial,54,31,-0.27,9,24.8,Medium,6808677,17,76,87
+C0863,Manufacturing,Small,Asia-Pacific,High,43,Centralized,15,AutoML,No,68,78,-0.9,6,14.2,Medium,7268708,7,77,55
+C0864,Retail,Small,Africa,High,83,Hybrid,51,AutoML,No,65,99,0.37,5,14.56,Medium,6296896,17,95,56
+C0865,Technology,Large,India,Low,62,Decentralized,34,AutoML,No,57,55,-0.13,10,11.28,Medium,7282874,55,55,93
+C0866,Healthcare,Large,US,Low,41,Decentralized,66,Descriptive,Yes,27,56,-0.61,8,-6.33,Low,1993419,50,96,66
+C0867,Telecom,Medium,US,High,95,Decentralized,94,AutoML,Yes,73,47,0.63,10,7.8,High,4657011,24,63,46
+C0868,Education,Large,US,Medium,61,Hybrid,64,Prescriptive,No,56,83,0.61,9,29.98,Low,3376254,2,56,91
+C0869,Retail,Medium,Asia-Pacific,Medium,90,Centralized,25,Predictive,Partial,59,30,-0.03,4,23.41,Medium,2479365,35,59,47
+C0870,Retail,Large,Africa,Low,96,Decentralized,23,Prescriptive,Partial,53,90,-0.4,8,25.74,High,3022703,28,64,47
+C0871,Retail,Small,Asia-Pacific,Medium,76,Hybrid,48,AutoML,No,98,32,0.28,8,22.93,Low,2437117,19,80,62
+C0872,Manufacturing,Medium,Europe,High,47,Centralized,37,Descriptive,Partial,36,97,-0.42,0,-5.88,High,1070576,33,78,71
+C0873,Technology,Medium,US,Low,46,Decentralized,60,AutoML,No,52,70,-0.53,4,-0.9,Medium,735305,21,91,82
+C0874,Manufacturing,Medium,Europe,High,53,Centralized,58,Predictive,Partial,66,66,0.46,8,-9.88,High,506982,53,66,86
+C0875,Technology,Small,Middle East,Low,95,Decentralized,18,Prescriptive,No,71,80,-0.92,6,2.14,High,2547537,10,100,57
+C0876,Manufacturing,Small,India,Low,94,Decentralized,67,Predictive,Partial,99,44,-0.81,5,-5.66,Medium,6250513,53,78,77
+C0877,Manufacturing,Small,India,Low,42,Decentralized,54,Predictive,Yes,28,37,-0.99,5,8.91,High,8966726,46,98,93
+C0878,Telecom,Small,Asia-Pacific,Low,89,Centralized,31,Predictive,No,52,67,-0.69,10,17.09,Low,7586371,45,93,51
+C0879,Healthcare,Small,Africa,Medium,55,Hybrid,41,Prescriptive,No,79,85,-0.86,6,24.98,High,9646013,9,64,54
+C0880,Manufacturing,Medium,Europe,High,94,Centralized,78,AutoML,Partial,96,76,0.99,0,19.97,Low,2836278,38,75,67
+C0881,Telecom,Small,Africa,High,58,Decentralized,96,Predictive,No,40,39,-0.42,3,27.54,High,1917427,6,61,94
+C0882,Finance,Medium,Asia-Pacific,High,90,Centralized,78,Prescriptive,No,77,78,-0.7,0,-7.84,High,9896646,51,74,77
+C0883,Healthcare,Small,India,Low,57,Hybrid,51,Descriptive,No,88,70,-0.52,5,-9.51,Medium,9512180,53,90,89
+C0884,Manufacturing,Large,Africa,Medium,91,Centralized,62,Prescriptive,Yes,29,59,0.87,3,16.45,Medium,3854153,42,54,95
+C0885,Education,Medium,Africa,High,55,Hybrid,68,Descriptive,Yes,25,34,0.04,0,1.57,Low,9759795,55,53,70
+C0886,Retail,Large,India,Medium,47,Hybrid,83,Prescriptive,Partial,32,100,-0.27,8,0.14,Medium,7309606,35,93,91
+C0887,Finance,Medium,Europe,Low,99,Centralized,48,AutoML,Yes,84,60,0.75,3,3.24,Medium,9728636,18,97,48
+C0888,Finance,Large,India,High,72,Decentralized,24,Predictive,Partial,39,81,-0.21,5,0.79,Medium,6016319,53,90,47
+C0889,Telecom,Small,Africa,Medium,88,Hybrid,80,AutoML,Yes,76,52,-0.33,6,10.46,Medium,6941313,19,80,85
+C0890,Finance,Small,Europe,Low,51,Centralized,38,Prescriptive,Partial,65,77,-0.59,7,7.61,Medium,366096,5,52,58
+C0891,Healthcare,Small,Europe,Medium,92,Hybrid,12,Predictive,Yes,27,69,-0.24,10,10.5,Low,3122721,25,52,90
+C0892,Manufacturing,Medium,India,High,50,Decentralized,92,Descriptive,Yes,29,35,-0.37,8,16.91,Low,3212557,11,75,47
+C0893,Manufacturing,Large,Africa,High,44,Centralized,19,Prescriptive,Partial,92,67,0.35,8,5.49,Medium,5221943,10,99,73
+C0894,Education,Small,Asia-Pacific,Low,66,Centralized,38,Predictive,No,86,70,-0.42,7,0.05,Medium,9915719,17,66,96
+C0895,Retail,Large,Africa,Low,51,Centralized,88,Descriptive,No,30,56,0.15,9,-3.35,Low,3578206,36,59,43
+C0896,Telecom,Large,US,Low,56,Decentralized,44,Descriptive,Yes,31,98,-0.87,10,3.98,High,3692064,26,51,70
+C0897,Retail,Small,Middle East,Medium,45,Hybrid,15,AutoML,Partial,29,86,-0.62,2,19.67,Low,6503001,31,73,77
+C0898,Finance,Small,Asia-Pacific,Medium,72,Centralized,21,Prescriptive,No,44,46,-0.19,1,20.27,High,7135587,32,60,42
+C0899,Education,Large,Europe,Medium,44,Hybrid,47,Descriptive,Partial,68,100,0.87,4,16.68,Medium,9555349,21,73,74
+C0900,Retail,Small,Asia-Pacific,Low,96,Hybrid,86,Predictive,No,68,76,-0.25,0,-0.64,Medium,7990012,18,84,58
+C0901,Healthcare,Small,Europe,High,67,Decentralized,28,Descriptive,Partial,30,42,0.33,2,13.52,Low,4786033,18,72,82
+C0902,Manufacturing,Small,Europe,High,53,Centralized,76,Descriptive,Yes,81,40,-0.49,0,12.83,Medium,7396866,1,81,68
+C0903,Finance,Medium,Asia-Pacific,Medium,44,Hybrid,17,AutoML,Partial,55,53,-0.75,2,9.37,High,5554489,14,72,49
+C0904,Education,Large,Europe,Medium,93,Centralized,17,AutoML,No,58,33,-0.88,3,12.0,High,68179,8,83,51
+C0905,Retail,Large,Europe,High,95,Centralized,93,Predictive,Yes,72,75,-0.39,6,9.67,Low,3484091,2,90,85
+C0906,Telecom,Medium,US,High,98,Decentralized,56,AutoML,Partial,97,47,-0.68,4,12.62,High,1573155,51,68,69
+C0907,Healthcare,Large,Africa,Medium,72,Centralized,13,Descriptive,No,75,72,-0.65,4,18.62,Low,6071143,15,51,69
+C0908,Healthcare,Small,Africa,Medium,89,Centralized,60,Descriptive,Yes,20,62,0.52,0,-5.61,Low,4843559,34,100,99
+C0909,Retail,Large,Middle East,High,87,Hybrid,94,AutoML,Partial,75,39,-0.97,7,19.99,High,3174249,36,51,57
+C0910,Manufacturing,Small,Middle East,Low,80,Decentralized,76,Descriptive,No,23,88,0.12,3,-4.56,High,1842803,1,64,63
+C0911,Retail,Medium,US,Medium,58,Centralized,54,Descriptive,Partial,49,60,-0.24,9,-7.33,High,1793174,51,70,71
+C0912,Finance,Small,Middle East,High,61,Hybrid,17,Predictive,Partial,31,57,0.01,4,29.04,High,6387481,21,84,48
+C0913,Retail,Large,Asia-Pacific,High,44,Decentralized,96,AutoML,Yes,54,89,0.13,1,28.28,High,3517758,42,54,86
+C0914,Healthcare,Large,India,High,98,Decentralized,25,Descriptive,Yes,96,32,-0.37,0,-7.58,High,5709659,1,92,63
+C0915,Education,Large,India,High,41,Hybrid,86,AutoML,No,71,84,-0.41,8,7.73,High,6083024,32,76,65
+C0916,Retail,Medium,India,Low,69,Hybrid,76,Predictive,Yes,50,43,0.47,1,-2.55,Medium,3551939,20,73,42
+C0917,Manufacturing,Medium,US,High,86,Hybrid,18,AutoML,No,87,87,0.74,5,9.41,Low,8746241,54,56,62
+C0918,Education,Large,US,Medium,78,Hybrid,69,Descriptive,Partial,71,44,-0.61,0,23.21,Low,6059039,47,55,50
+C0919,Telecom,Small,Europe,Low,43,Hybrid,87,AutoML,Partial,99,31,-0.8,0,28.02,High,193492,36,95,49
+C0920,Technology,Medium,India,High,72,Centralized,86,Descriptive,No,26,53,0.8,8,15.37,Low,2938899,39,82,89
+C0921,Retail,Large,Asia-Pacific,Low,52,Centralized,80,Descriptive,Partial,41,93,-0.3,3,4.16,High,5757013,30,98,75
+C0922,Manufacturing,Large,Middle East,Medium,59,Decentralized,24,Descriptive,Yes,94,100,0.1,8,14.13,Medium,8251497,7,66,99
+C0923,Education,Medium,Asia-Pacific,High,93,Centralized,80,Predictive,Partial,75,53,-0.28,10,2.48,Low,275648,22,95,52
+C0924,Manufacturing,Medium,Middle East,Medium,46,Centralized,50,AutoML,Yes,77,56,-0.75,4,26.39,Low,2638279,57,91,68
+C0925,Telecom,Medium,India,High,54,Centralized,31,Predictive,No,83,66,0.18,6,24.82,Medium,4847622,50,79,77
+C0926,Healthcare,Small,India,High,62,Hybrid,33,AutoML,No,31,68,0.05,0,12.33,Medium,6405366,45,57,98
+C0927,Manufacturing,Small,India,High,53,Decentralized,53,Predictive,Partial,26,92,-0.59,5,2.99,Medium,9191256,10,89,92
+C0928,Education,Large,US,High,62,Decentralized,10,Prescriptive,Partial,74,55,-0.1,7,1.74,Low,6292870,56,95,52
+C0929,Manufacturing,Medium,Middle East,High,58,Decentralized,19,Descriptive,Yes,81,94,0.59,0,-8.66,Low,4980952,8,56,96
+C0930,Manufacturing,Small,US,Low,93,Decentralized,89,Descriptive,Yes,92,33,0.18,8,22.63,Medium,9983326,27,55,65
+C0931,Manufacturing,Medium,US,High,68,Centralized,81,Predictive,Partial,96,58,-0.81,2,8.02,Medium,447348,10,53,59
+C0932,Finance,Large,Africa,High,95,Centralized,65,Prescriptive,Partial,74,30,0.1,0,3.01,Medium,6730753,14,50,44
+C0933,Finance,Small,Asia-Pacific,Low,59,Hybrid,98,Descriptive,No,55,79,0.41,0,8.84,Medium,7431630,46,64,59
+C0934,Healthcare,Small,Asia-Pacific,Low,68,Decentralized,59,AutoML,No,43,40,0.59,10,22.75,Medium,5779908,59,80,53
+C0935,Retail,Small,Europe,Low,63,Centralized,21,Predictive,No,63,88,0.26,5,-5.02,High,8937123,52,74,84
+C0936,Manufacturing,Large,US,Low,57,Centralized,98,Descriptive,Partial,36,91,-0.69,10,24.31,Medium,5182359,54,96,53
+C0937,Telecom,Medium,Middle East,Low,49,Hybrid,90,Descriptive,Partial,21,65,0.42,5,25.9,High,2108591,11,82,47
+C0938,Retail,Small,Africa,Low,80,Hybrid,69,Predictive,Partial,32,85,0.35,0,27.87,Low,4050366,6,84,87
+C0939,Telecom,Large,Africa,High,96,Hybrid,35,Predictive,No,50,50,-0.95,2,5.9,Low,76296,21,54,52
+C0940,Retail,Medium,Asia-Pacific,High,47,Centralized,87,AutoML,Partial,47,42,-0.18,6,-1.31,High,6300600,33,54,63
+C0941,Healthcare,Large,US,Medium,65,Centralized,50,AutoML,Yes,79,38,-0.33,9,4.95,Medium,7549996,19,85,54
+C0942,Manufacturing,Medium,Europe,High,68,Hybrid,45,Descriptive,Partial,46,40,0.34,2,3.32,Low,6841466,39,66,90
+C0943,Manufacturing,Large,US,High,49,Decentralized,32,Descriptive,Partial,34,99,-0.57,2,-2.95,Medium,7286444,24,63,40
+C0944,Technology,Medium,India,Low,56,Hybrid,52,Predictive,Partial,98,30,0.18,2,14.29,Medium,149074,18,78,61
+C0945,Telecom,Small,US,Low,41,Hybrid,15,Descriptive,Partial,52,99,0.83,6,9.06,High,573136,35,57,73
+C0946,Retail,Medium,India,High,45,Hybrid,78,Descriptive,Partial,39,85,0.6,3,24.63,Low,2828550,52,83,89
+C0947,Retail,Large,India,Medium,97,Hybrid,52,Predictive,Yes,61,60,0.84,3,-8.72,Low,5590910,43,89,90
+C0948,Finance,Large,Europe,Low,44,Centralized,34,Descriptive,Yes,31,66,0.96,2,15.75,High,2067364,37,50,79
+C0949,Technology,Medium,Middle East,High,67,Decentralized,27,Descriptive,Partial,92,76,-0.98,9,20.52,Medium,4327214,19,78,42
+C0950,Education,Small,Asia-Pacific,High,80,Hybrid,71,Prescriptive,No,42,76,0.25,10,20.38,Medium,9668118,53,85,94
+C0951,Education,Small,US,Medium,44,Decentralized,22,AutoML,Partial,91,98,-0.17,8,25.44,Low,6722592,24,100,65
+C0952,Finance,Medium,India,Medium,57,Decentralized,52,Predictive,Partial,33,87,0.72,1,19.16,High,4757575,56,86,53
+C0953,Finance,Medium,US,Low,65,Decentralized,87,Prescriptive,Partial,44,65,-0.5,3,27.11,High,6505334,34,78,97
+C0954,Finance,Large,Middle East,Medium,59,Hybrid,37,AutoML,No,96,61,0.96,7,3.31,Medium,7014475,22,54,80
+C0955,Telecom,Small,Asia-Pacific,High,80,Centralized,27,AutoML,No,50,93,0.23,5,10.13,Medium,1081810,4,81,100
+C0956,Telecom,Medium,Middle East,High,88,Hybrid,68,AutoML,No,73,100,0.59,6,-9.44,High,8593133,57,73,47
+C0957,Healthcare,Small,Asia-Pacific,Medium,66,Decentralized,69,Prescriptive,Yes,24,71,-0.83,6,-9.72,Low,6793485,10,68,88
+C0958,Healthcare,Medium,Africa,Medium,88,Decentralized,72,Prescriptive,No,32,77,-0.63,1,-0.39,Medium,691075,2,61,94
+C0959,Finance,Medium,Asia-Pacific,Medium,51,Centralized,66,AutoML,Yes,47,59,0.52,3,-5.97,High,3810501,8,50,94
+C0960,Technology,Small,Europe,Medium,46,Hybrid,60,Descriptive,Yes,62,50,-0.96,9,0.41,High,7049993,33,56,95
+C0961,Retail,Medium,Middle East,Low,98,Decentralized,65,Descriptive,No,66,89,0.63,9,-2.92,High,3193197,59,66,55
+C0962,Telecom,Medium,India,Medium,42,Centralized,36,Prescriptive,No,90,42,-0.97,5,-8.86,Low,82646,38,83,81
+C0963,Technology,Large,Africa,Low,49,Decentralized,41,Prescriptive,No,57,30,0.31,2,26.37,Medium,1174702,43,92,60
+C0964,Manufacturing,Medium,Europe,High,73,Centralized,18,Prescriptive,Yes,86,94,-0.27,8,-9.67,Medium,6855572,59,56,49
+C0965,Telecom,Medium,US,Medium,64,Centralized,93,AutoML,Partial,81,62,0.22,3,19.44,Medium,9742401,28,66,96
+C0966,Telecom,Medium,Middle East,Low,74,Hybrid,77,Descriptive,No,58,67,0.39,9,-3.91,Low,8822990,10,52,64
+C0967,Healthcare,Large,India,Medium,55,Decentralized,55,Prescriptive,No,56,54,-0.32,1,26.49,Medium,642947,45,78,95
+C0968,Retail,Small,Asia-Pacific,High,41,Hybrid,76,Prescriptive,No,27,55,-0.78,5,25.71,Medium,6869902,1,71,77
+C0969,Retail,Large,India,High,99,Decentralized,35,Predictive,Yes,100,88,-0.86,0,16.16,Medium,9121706,34,87,61
+C0970,Education,Large,US,High,63,Hybrid,17,AutoML,Yes,71,62,0.18,5,16.89,Medium,4380919,3,92,88
+C0971,Education,Small,Africa,Medium,49,Decentralized,15,Predictive,Partial,52,70,0.04,9,-9.79,Low,686572,9,78,100
+C0972,Education,Large,Africa,Medium,77,Hybrid,89,Descriptive,No,100,59,0.48,0,29.39,High,2326148,5,99,87
+C0973,Education,Small,Middle East,Low,61,Centralized,33,Predictive,Yes,61,86,0.02,7,25.11,High,5728444,42,99,86
+C0974,Manufacturing,Large,Africa,High,65,Decentralized,57,Predictive,Partial,95,78,-0.16,4,25.8,Medium,2493413,10,91,93
+C0975,Manufacturing,Small,Middle East,Medium,82,Decentralized,54,Predictive,No,46,77,-0.2,5,16.37,Medium,1004183,12,54,85
+C0976,Telecom,Medium,Middle East,High,94,Centralized,22,AutoML,Yes,27,78,-0.95,1,3.79,Medium,5861056,18,79,43
+C0977,Finance,Large,Middle East,High,78,Hybrid,78,Descriptive,No,42,76,-0.33,1,25.75,Low,7362499,58,72,43
+C0978,Healthcare,Large,Asia-Pacific,Low,66,Decentralized,34,Predictive,No,83,85,0.95,8,1.66,Medium,4773391,21,70,69
+C0979,Healthcare,Large,Europe,Low,68,Decentralized,29,AutoML,Yes,39,94,0.75,2,12.51,Low,533843,21,75,41
+C0980,Education,Large,Middle East,Low,86,Hybrid,91,Descriptive,Yes,35,41,-0.34,5,-6.01,Medium,799130,1,96,68
+C0981,Telecom,Medium,Middle East,Low,77,Centralized,91,Prescriptive,Yes,36,98,0.18,9,26.88,Medium,7903296,3,70,82
+C0982,Technology,Large,Europe,High,59,Hybrid,75,Predictive,No,99,35,0.69,4,-4.37,High,6431597,5,69,75
+C0983,Finance,Medium,India,Low,66,Hybrid,83,Descriptive,No,38,94,-0.12,3,-1.0,Medium,1028062,25,72,60
+C0984,Telecom,Medium,Middle East,Low,80,Hybrid,54,Predictive,Partial,27,54,-0.96,9,12.33,Low,3489540,58,53,100
+C0985,Finance,Medium,Asia-Pacific,Low,93,Decentralized,56,Prescriptive,No,57,30,-0.85,1,20.56,High,9622367,49,70,99
+C0986,Finance,Medium,Africa,Low,59,Centralized,72,Descriptive,Yes,57,61,0.02,7,14.77,Low,1516478,8,70,60
+C0987,Finance,Small,Africa,High,83,Centralized,85,AutoML,No,72,32,0.94,9,-0.71,High,2350775,17,50,87
+C0988,Telecom,Small,US,Low,58,Hybrid,86,Descriptive,Partial,50,78,0.39,6,-9.96,Low,8248856,9,64,60
+C0989,Education,Large,US,High,59,Decentralized,64,AutoML,Partial,63,48,-0.86,10,20.29,High,3212218,32,66,43
+C0990,Healthcare,Small,Africa,Medium,74,Hybrid,84,Descriptive,Yes,79,89,-0.62,1,29.41,Low,478410,6,100,40
+C0991,Healthcare,Small,Africa,High,86,Decentralized,28,AutoML,Yes,95,58,0.54,5,22.4,Low,4127729,49,63,65
+C0992,Education,Large,Asia-Pacific,High,41,Decentralized,44,Prescriptive,Partial,36,79,0.68,7,8.41,Medium,824426,40,68,95
+C0993,Finance,Large,Europe,Low,69,Decentralized,62,Prescriptive,Partial,98,31,0.24,6,26.15,High,2788659,21,99,90
+C0994,Technology,Large,US,Medium,92,Decentralized,35,Prescriptive,Partial,92,85,0.29,0,6.39,High,1136706,7,83,41
+C0995,Retail,Small,Europe,Medium,73,Centralized,23,Descriptive,Yes,58,46,-0.94,4,11.0,Medium,9254994,7,55,48
+C0996,Telecom,Small,Asia-Pacific,Medium,61,Decentralized,54,Prescriptive,Partial,61,89,0.66,1,9.09,Low,7765613,47,94,94
+C0997,Retail,Large,Africa,Medium,42,Decentralized,53,Predictive,Partial,67,65,0.58,5,7.9,Low,5270741,39,98,96
+C0998,Education,Medium,Middle East,High,45,Hybrid,97,Prescriptive,Yes,31,90,-0.48,6,21.01,High,232235,54,55,84
+C0999,Technology,Large,Europe,Medium,54,Hybrid,74,AutoML,No,37,46,0.42,6,11.07,Low,3079407,27,54,57
+C1000,Telecom,Medium,Africa,High,66,Centralized,60,AutoML,No,98,78,-0.57,2,2.67,High,9026061,8,56,87
